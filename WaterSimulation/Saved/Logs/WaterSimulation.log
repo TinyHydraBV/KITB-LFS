@@ -6994,3 +6994,388 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.05.10-14.58.31:612][459]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat8AC7115E40D4B52A77DD9EA98FECDD2D.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
 [2021.05.10-14.58.31:638][459]AssetCheck: New page: Asset Save: Boat
 [2021.05.10-14.58.31:638][459]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-15.01.20:807][308]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.05.10-15.01.22:082][308]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevel_Auto7B3A2D30147CBE545FDDB81B7DCA63EAF.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/BuyoancySimulation/BuyoancyLevel_Auto7.umap'
+[2021.05.10-15.01.22:085][308]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BuyoancySimulation/BuyoancyLevel' took 1.328
+[2021.05.10-15.01.22:085][308]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.328
+[2021.05.10-15.28.12:305][672]LogSlate: Window 'Source Control Login' being destroyed
+[2021.05.10-15.29.11:098][275]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset' is outside repository
+[2021.05.10-15.29.11:182][275]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.05.10-15.29.12:411][275]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevelDF9B00AE4AECD7515018859BF740259C.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/BuyoancySimulation/BuyoancyLevel.umap'
+[2021.05.10-15.29.12:444][275]LogFileHelpers: Saving map 'BuyoancyLevel' took 1.312
+[2021.05.10-15.29.12:451][275]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/RenderSplineDepthsC0A900974E7E4629FC4CB69B852BF2B0.tmp' to '../../Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset'
+[2021.05.10-15.29.12:493][275]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.10-15.29.12:493][275]LogContentValidation: Display: Validating World /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel
+[2021.05.10-15.29.12:494][275]LogContentValidation: Display: Validating Material /Landmass/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.RenderSplineDepths
+[2021.05.10-15.29.12:635][285]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset' is outside repository
+[2021.05.10-15.29.19:405][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Content: 'I:/Unreal/UE_4.26/Engine/Content' is outside repository
+[2021.05.10-15.29.19:405][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository
+[2021.05.10-15.29.19:405][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository
+[2021.05.10-15.29.19:405][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository
+[2021.05.10-15.29.19:406][805]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository
+[2021.05.10-15.29.19:849][805]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.05.10-15.29.21:090][805]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevelFB77BB64436B504B815949876510D4E7.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/BuyoancySimulation/BuyoancyLevel.umap'
+[2021.05.10-15.29.21:105][805]LogFileHelpers: Saving map 'BuyoancyLevel' took 1.303
+[2021.05.10-15.29.42:688][805]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.10-15.29.44:564][805]LogSourceControl: commit successful: [watersimulation 34a2d9c] Upda buoyancy Level
+[2021.05.10-15.29.44:630][805]SourceControl: [watersimulation 34a2d9c] Upda buoyancy Level
+[2021.05.10-15.29.44:630][805]SourceControl:  1 file changed, 2 insertions(+), 2 deletions(-)
+[2021.05.10-15.29.44:640][805]SourceControl: Commited [watersimulation 34a2d9c] Upda buoyancy Level.
+[2021.05.10-15.29.44:695][806]AssetCheck: New page: Asset Save: BuyoancyLevel
+[2021.05.10-15.29.44:695][806]LogContentValidation: Display: Validating World /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Content: 'I:/Unreal/UE_4.26/Engine/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Landmass/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Water/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Experimental/Water/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository
+[2021.05.10-15.29.50:243][185]SourceControl: fatal: I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'I:/Unreal/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository
+[2021.05.10-15.29.50:484][185]EditorErrors: Warning: No assets to check in!
+[2021.05.10-15.37.09:942][778]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2021.05.10-15.37.23:123][911]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2021.05.10-15.38.52:317][320]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2021.05.10-15.40.00:980][328]LogContentBrowser: Verbose: The majority of assets in the view are of type: Blueprint
+[2021.05.10-16.01.23:048][965]LogSlate: Took 0.031805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.10-16.01.38:300][887]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.01.38:426][887]LogUObjectHash: Compacting FUObjectHashTables data took   9.38ms
+[2021.05.10-16.01.58:974][736]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.01.59:073][736]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.05.10-16.04.27:862][613]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2021.05.10-16.04.29:351][613]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevel_Auto81A44374541F7D747BE411C8D88DEE232.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/BuyoancySimulation/BuyoancyLevel_Auto8.umap'
+[2021.05.10-16.04.29:369][613]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BuyoancySimulation/BuyoancyLevel' took 1.558
+[2021.05.10-16.04.29:369][613]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.558
+[2021.05.10-16.04.29:370][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Boat/Boat] ([2] browsable assets)...
+[2021.05.10-16.04.29:401][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Boat/Boat.Boat]
+[2021.05.10-16.04.29:412][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Boat/Boat.Boat]
+[2021.05.10-16.04.29:412][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Boat/Boat]
+[2021.05.10-16.04.29:413][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/Boat/Boat_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2021.05.10-16.04.29:472][613]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_Auto8AF5306CB48C7E0C4E4213A859C58A823.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/Boat/Boat_Auto8.uasset'
+[2021.05.10-16.04.29:473][613]LogFileHelpers: Auto-saving content packages took 0.103
+[2021.05.10-16.05.24:536][558]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.05.24:650][558]LogUObjectHash: Compacting FUObjectHashTables data took   9.29ms
+[2021.05.10-16.05.25:266][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset" SILENT=true
+[2021.05.10-16.05.25:325][574]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BoatA4B0ED914B30E0E1A614129558E79533.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
+[2021.05.10-16.05.25:352][574]AssetCheck: New page: Asset Save: Boat
+[2021.05.10-16.05.25:352][574]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-16.05.38:754][857]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.10-16.05.38:789][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.10-16.05.38:789][857]PIE: New page: PIE session: BuyoancyLevel (May 10, 2021, 10:05:38 AM)
+[2021.05.10-16.05.38:789][857]LogPlayLevel: Creating play world package: /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.05.39:203][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.414730s)
+[2021.05.10-16.05.39:205][857]LogAIModule: Creating AISystem for world BuyoancyLevel
+[2021.05.10-16.05.39:206][857]LogPlayLevel: PIE: World Init took: (0.002698s)
+[2021.05.10-16.05.39:206][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel to /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel (0.417731s)
+[2021.05.10-16.05.39:260][857]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2021.05.10-16.05.39:263][857]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.10-16.05.39:263][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.10-16.05.39:263][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.10-16.05.39:264][857]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.10-16.05.39:264][857]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.10-16.05.39:277][857]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.10-16.05.39:277][857]LogAudioMixer: Display: 1: FrontRight
+[2021.05.10-16.05.39:323][857]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.10-16.05.39:326][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.10-16.05.39:326][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.10-16.05.39:326][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.10-16.05.39:331][857]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.10-16.05.39:331][857]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.10-16.05.39:331][857]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.10-16.05.39:345][857]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.10-16.05.39:345][857]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.10-16.05.39:345][857]LogInit: FAudioDevice initialized.
+[2021.05.10-16.05.39:345][857]LogAudio: Display: Audio Device (ID: 21) registered with world 'BuyoancyLevel'.
+[2021.05.10-16.05.39:363][857]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.10-16.05.39:389][857]LogWorld: Bringing World /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel up for play (max tick rate 0) at 2021.05.10-13.05.39
+[2021.05.10-16.05.39:391][857]LogWorld: Bringing up level for play took: 0.027643
+[2021.05.10-16.05.39:392][857]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.10-16.05.39:398][857]PIE: Server logged in
+[2021.05.10-16.05.39:399][857]PIE: Play in editor total start time 0.64 seconds.
+[2021.05.10-16.06.03:429][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.06.03:429][523]LogWorld: BeginTearingDown for /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.06.03:430][523]LogWorld: UWorld::CleanupWorld for BuyoancyLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.10-16.06.03:434][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.06.03:461][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.10-16.06.03:482][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.06.03:522][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.10-16.06.03:523][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.06.03:524][523]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.06.03:544][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.06.03:589][523]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.05.10-16.06.03:683][524]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.10-16.06.40:616][821]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.06.40:717][821]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2021.05.10-16.06.41:315][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset" SILENT=true
+[2021.05.10-16.06.41:369][842]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat2F186D5241A482E18068FBA98489D604.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
+[2021.05.10-16.06.41:385][842]AssetCheck: New page: Asset Save: Boat
+[2021.05.10-16.06.41:385][842]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-16.06.42:980][922]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.10-16.06.42:986][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.10-16.06.42:986][922]PIE: New page: PIE session: BuyoancyLevel (May 10, 2021, 10:06:42 AM)
+[2021.05.10-16.06.43:008][922]LogPlayLevel: Creating play world package: /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.06.43:376][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368510s)
+[2021.05.10-16.06.43:378][922]LogAIModule: Creating AISystem for world BuyoancyLevel
+[2021.05.10-16.06.43:379][922]LogPlayLevel: PIE: World Init took: (0.002837s)
+[2021.05.10-16.06.43:379][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel to /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel (0.371663s)
+[2021.05.10-16.06.43:432][922]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2021.05.10-16.06.43:434][922]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.10-16.06.43:434][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.10-16.06.43:434][922]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.10-16.06.43:434][922]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.10-16.06.43:447][922]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.10-16.06.43:447][922]LogAudioMixer: Display: 1: FrontRight
+[2021.05.10-16.06.43:488][922]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.10-16.06.43:488][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.10-16.06.43:488][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.10-16.06.43:488][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.10-16.06.43:489][922]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.10-16.06.43:489][922]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.10-16.06.43:489][922]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.10-16.06.43:505][922]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.10-16.06.43:505][922]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.10-16.06.43:505][922]LogInit: FAudioDevice initialized.
+[2021.05.10-16.06.43:505][922]LogAudio: Display: Audio Device (ID: 22) registered with world 'BuyoancyLevel'.
+[2021.05.10-16.06.43:521][922]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.10-16.06.43:550][922]LogWorld: Bringing World /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel up for play (max tick rate 0) at 2021.05.10-13.06.43
+[2021.05.10-16.06.43:551][922]LogWorld: Bringing up level for play took: 0.028533
+[2021.05.10-16.06.43:551][922]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.10-16.06.43:555][922]PIE: Server logged in
+[2021.05.10-16.06.43:556][922]PIE: Play in editor total start time 0.57 seconds.
+[2021.05.10-16.07.35:488][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.07.35:488][795]LogWorld: BeginTearingDown for /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.07.35:488][795]LogWorld: UWorld::CleanupWorld for BuyoancyLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.10-16.07.35:493][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.07.35:517][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.10-16.07.35:537][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.07.35:583][795]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.10-16.07.35:588][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.07.35:589][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.07.35:610][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.07.35:648][795]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2021.05.10-16.07.35:752][796]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.05.10-16.08.49:391][120]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.08.49:494][120]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.05.10-16.08.50:289][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset" SILENT=true
+[2021.05.10-16.08.50:343][152]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BoatBF9904534AEA5899689E608DFA97594E.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
+[2021.05.10-16.08.50:368][152]AssetCheck: New page: Asset Save: Boat
+[2021.05.10-16.08.50:368][152]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-16.08.51:677][223]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.10-16.08.51:684][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.10-16.08.51:684][223]PIE: New page: PIE session: BuyoancyLevel (May 10, 2021, 10:08:51 AM)
+[2021.05.10-16.08.51:707][223]LogPlayLevel: Creating play world package: /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.08.52:062][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.354283s)
+[2021.05.10-16.08.52:063][223]LogAIModule: Creating AISystem for world BuyoancyLevel
+[2021.05.10-16.08.52:064][223]LogPlayLevel: PIE: World Init took: (0.002011s)
+[2021.05.10-16.08.52:064][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel to /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel (0.356583s)
+[2021.05.10-16.08.52:109][223]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.05.10-16.08.52:119][223]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.10-16.08.52:119][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.10-16.08.52:119][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.10-16.08.52:120][223]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.10-16.08.52:120][223]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.10-16.08.52:132][223]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.10-16.08.52:132][223]LogAudioMixer: Display: 1: FrontRight
+[2021.05.10-16.08.52:174][223]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.10-16.08.52:174][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.10-16.08.52:174][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.10-16.08.52:174][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.10-16.08.52:175][223]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.10-16.08.52:175][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.10-16.08.52:175][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.10-16.08.52:191][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.10-16.08.52:191][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.10-16.08.52:191][223]LogInit: FAudioDevice initialized.
+[2021.05.10-16.08.52:191][223]LogAudio: Display: Audio Device (ID: 23) registered with world 'BuyoancyLevel'.
+[2021.05.10-16.08.52:204][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.10-16.08.52:235][223]LogWorld: Bringing World /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel up for play (max tick rate 0) at 2021.05.10-13.08.52
+[2021.05.10-16.08.52:236][223]LogWorld: Bringing up level for play took: 0.030074
+[2021.05.10-16.08.52:236][223]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.05.10-16.08.52:240][223]PIE: Server logged in
+[2021.05.10-16.08.52:241][223]PIE: Play in editor total start time 0.557 seconds.
+[2021.05.10-16.09.27:178][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.09.27:178][904]LogWorld: BeginTearingDown for /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.09.27:179][904]LogWorld: UWorld::CleanupWorld for BuyoancyLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.10-16.09.27:184][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.09.27:207][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.10-16.09.27:223][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.09.27:265][904]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.10-16.09.27:271][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.09.27:272][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.09.27:292][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.09.27:324][904]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2021.05.10-16.09.27:411][905]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.05.10-16.09.49:646][452]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.10-16.09.49:653][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.10-16.09.49:653][452]PIE: New page: PIE session: BuyoancyLevel (May 10, 2021, 10:09:49 AM)
+[2021.05.10-16.09.49:653][452]LogPlayLevel: Creating play world package: /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.09.50:026][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.372320s)
+[2021.05.10-16.09.50:030][452]LogAIModule: Creating AISystem for world BuyoancyLevel
+[2021.05.10-16.09.50:031][452]LogPlayLevel: PIE: World Init took: (0.005435s)
+[2021.05.10-16.09.50:031][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel to /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel (0.377958s)
+[2021.05.10-16.09.50:077][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.05.10-16.09.50:088][452]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.10-16.09.50:088][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.10-16.09.50:088][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.10-16.09.50:089][452]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.10-16.09.50:089][452]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.10-16.09.50:102][452]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.10-16.09.50:102][452]LogAudioMixer: Display: 1: FrontRight
+[2021.05.10-16.09.50:143][452]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.10-16.09.50:144][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.10-16.09.50:144][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.10-16.09.50:144][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.10-16.09.50:144][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.10-16.09.50:145][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.10-16.09.50:145][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.10-16.09.50:162][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.10-16.09.50:162][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.10-16.09.50:162][452]LogInit: FAudioDevice initialized.
+[2021.05.10-16.09.50:162][452]LogAudio: Display: Audio Device (ID: 24) registered with world 'BuyoancyLevel'.
+[2021.05.10-16.09.50:177][452]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.10-16.09.50:199][452]LogWorld: Bringing World /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel up for play (max tick rate 0) at 2021.05.10-13.09.50
+[2021.05.10-16.09.50:201][452]LogWorld: Bringing up level for play took: 0.023456
+[2021.05.10-16.09.50:201][452]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.05.10-16.09.50:204][452]PIE: Server logged in
+[2021.05.10-16.09.50:205][452]PIE: Play in editor total start time 0.554 seconds.
+[2021.05.10-16.11.12:749][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.11.12:749][744]LogWorld: BeginTearingDown for /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.11.12:750][744]LogWorld: UWorld::CleanupWorld for BuyoancyLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.10-16.11.12:754][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.11.12:778][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.10-16.11.12:797][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.11.12:837][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.11.12:843][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.11.12:844][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.11.12:878][744]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2021.05.10-16.11.12:978][745]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.05.10-16.11.14:917][862]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2021.05.10-16.11.16:149][862]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevel491EC76246DBC5BC2116ACB41E16FE48.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/BuyoancySimulation/BuyoancyLevel.umap'
+[2021.05.10-16.11.16:259][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuyoancySimulation/BuyoancyLevel_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/BuyoancySimulation/BuyoancyLevel_BuiltData.uasset" SILENT=true
+[2021.05.10-16.11.17:934][862]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BuyoancyLevel_BuiltData2ED621ED44310F7BA9F95EAFA59B6FEF.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/BuyoancySimulation/BuyoancyLevel_BuiltData.uasset'
+[2021.05.10-16.11.17:968][862]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.10-16.11.17:968][862]LogContentValidation: Display: Validating World /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel
+[2021.05.10-16.11.17:968][862]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BuyoancySimulation/BuyoancyLevel_BuiltData.BuyoancyLevel_BuiltData
+[2021.05.10-16.16.05:965][583]LogEditorTransaction: Undo Create Pin Link
+[2021.05.10-16.16.08:032][680]LogEditorTransaction: Undo Create Pin Link
+[2021.05.10-16.16.08:528][706]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.10-16.18.17:172][442]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.18.17:204][442]LogBlueprint: Warning: [AssetLog] I:\GitHub\KITB-LFS\WaterSimulation\Content\Boat\Boat.uasset: [Compiler] Get Last Water Surface Info  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2021.05.10-16.18.17:312][442]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2021.05.10-16.18.18:142][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset" SILENT=true
+[2021.05.10-16.18.18:191][474]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/BoatB4A5E75940F53A861983C5B47A50C657.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
+[2021.05.10-16.18.18:210][474]AssetCheck: New page: Asset Save: Boat
+[2021.05.10-16.18.18:210][474]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-16.18.35:327][495]BlueprintLog: New page: Compile Boat
+[2021.05.10-16.18.35:427][495]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2021.05.10-16.18.40:826][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset" SILENT=true
+[2021.05.10-16.18.40:876][813]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat9C9293644B4F945E8595AD8BAC503B16.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat.uasset'
+[2021.05.10-16.18.40:900][813]AssetCheck: New page: Asset Save: Boat
+[2021.05.10-16.18.40:900][813]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat.Boat
+[2021.05.10-16.18.47:114][160]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.10-16.18.47:120][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.10-16.18.47:120][160]PIE: New page: PIE session: BuyoancyLevel (May 10, 2021, 10:18:47 AM)
+[2021.05.10-16.18.47:146][160]LogPlayLevel: Creating play world package: /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.18.47:499][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.352694s)
+[2021.05.10-16.18.47:500][160]LogAIModule: Creating AISystem for world BuyoancyLevel
+[2021.05.10-16.18.47:500][160]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2021.05.10-16.18.47:501][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BuyoancySimulation/BuyoancyLevel.BuyoancyLevel to /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel (0.354488s)
+[2021.05.10-16.18.47:553][160]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2021.05.10-16.18.47:557][160]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.10-16.18.47:557][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.10-16.18.47:557][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.10-16.18.47:558][160]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.10-16.18.47:558][160]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.10-16.18.47:569][160]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.10-16.18.47:569][160]LogAudioMixer: Display: 1: FrontRight
+[2021.05.10-16.18.47:612][160]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.10-16.18.47:612][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.10-16.18.47:612][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.10-16.18.47:613][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.10-16.18.47:614][160]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.10-16.18.47:614][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.10-16.18.47:614][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.10-16.18.47:635][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.10-16.18.47:635][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.10-16.18.47:635][160]LogInit: FAudioDevice initialized.
+[2021.05.10-16.18.47:635][160]LogAudio: Display: Audio Device (ID: 25) registered with world 'BuyoancyLevel'.
+[2021.05.10-16.18.47:650][160]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.10-16.18.47:676][160]LogWorld: Bringing World /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel.BuyoancyLevel up for play (max tick rate 0) at 2021.05.10-13.18.47
+[2021.05.10-16.18.47:677][160]LogWorld: Bringing up level for play took: 0.025318
+[2021.05.10-16.18.47:678][160]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.05.10-16.18.47:682][160]PIE: Server logged in
+[2021.05.10-16.18.47:683][160]PIE: Play in editor total start time 0.563 seconds.
+[2021.05.10-16.19.04:568][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.19.04:568][265]LogWorld: BeginTearingDown for /Game/BuyoancySimulation/UEDPIE_0_BuyoancyLevel
+[2021.05.10-16.19.04:568][265]LogWorld: UWorld::CleanupWorld for BuyoancyLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.10-16.19.04:575][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.19.04:597][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.10-16.19.04:614][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.10-16.19.04:655][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.10-16.19.04:663][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.19.04:664][265]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.10-16.19.04:702][265]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2021.05.10-16.19.04:813][266]LogPlayLevel: Display: Destroying online subsystem :Context_31
