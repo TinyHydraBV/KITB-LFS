@@ -7273,3 +7273,1778 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.05.14-12.27.04:124][ 37]LogContentValidation: Display: Validating World /Game/OceanStudies/OceanStudies.OceanStudies
 [2021.05.14-12.27.04:124][ 37]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/OceanStudies/OceanStudies_BuiltData.OceanStudies_BuiltData
 [2021.05.14-12.27.05:589][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.05.14-12.36.24:693][978]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-12.36.24:702][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-12.36.24:702][978]PIE: New page: PIE session: OceanStudies (May 14, 2021, 6:36:24 AM)
+[2021.05.14-12.36.24:702][978]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-12.36.24:723][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020595s)
+[2021.05.14-12.36.24:724][978]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-12.36.24:725][978]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2021.05.14-12.36.24:725][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022469s)
+[2021.05.14-12.36.24:760][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.05.14-12.36.24:768][978]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.05.14-12.36.24:768][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-12.36.24:768][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-12.36.24:769][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-12.36.24:769][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-12.36.24:769][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-12.36.24:769][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-12.36.24:769][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-12.36.24:769][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-12.36.24:770][978]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-12.36.24:770][978]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-12.36.24:782][978]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-12.36.24:782][978]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-12.36.24:822][978]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-12.36.24:823][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-12.36.24:823][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-12.36.24:823][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-12.36.24:823][978]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-12.36.24:823][978]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-12.36.24:823][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-12.36.24:840][978]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-12.36.24:840][978]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-12.36.24:840][978]LogInit: FAudioDevice initialized.
+[2021.05.14-12.36.24:840][978]LogAudio: Display: Audio Device (ID: 22) registered with world 'OceanStudies'.
+[2021.05.14-12.36.24:847][978]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-12.36.24:850][978]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-09.36.24
+[2021.05.14-12.36.24:851][978]LogWorld: Bringing up level for play took: 0.002872
+[2021.05.14-12.36.24:851][978]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.14-12.36.24:853][978]PIE: Server logged in
+[2021.05.14-12.36.24:854][978]PIE: Play in editor total start time 0.154 seconds.
+[2021.05.14-12.36.28:540][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-12.36.28:540][218]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-12.36.28:540][218]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-12.36.28:541][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-12.36.28:571][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-12.36.28:616][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-12.36.28:646][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-12.36.28:647][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-12.36.28:648][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-12.36.28:670][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.05.14-12.36.28:795][219]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.05.14-12.38.10:655][530]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-12.38.11:029][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.05.14-12.38.12:167][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat_Vehicle" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset" SILENT=true
+[2021.05.14-12.38.12:229][601]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_VehicleC895E3FC4945C09CE3677A80CC366BFC.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset'
+[2021.05.14-12.38.12:244][601]AssetCheck: New page: Asset Save: Boat_Vehicle
+[2021.05.14-12.38.12:244][601]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat_Vehicle.Boat_Vehicle
+[2021.05.14-12.38.54:655][444]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2021.05.14-12.38.54:748][444]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_Auto4AB8669C84997943B98D3449317963A46.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/OceanStudies/OceanStudies_Auto4.umap'
+[2021.05.14-12.38.54:771][444]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/OceanStudies/OceanStudies' took 0.159
+[2021.05.14-12.38.54:771][444]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.159
+[2021.05.14-12.50.32:536][155]Cmd: DELETE
+[2021.05.14-12.50.32:543][155]Cmd: ACTOR DELETE
+[2021.05.14-12.50.32:862][155]LogEditorActor: Deleted Actor: Boat_C
+[2021.05.14-12.50.32:900][155]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.05.14-12.50.32:909][155]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2021.05.14-12.51.22:691][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.05.14-12.51.22:788][410]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_Auto58BE505624C9625DCC46E57AD9C8D257D.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/OceanStudies/OceanStudies_Auto5.umap'
+[2021.05.14-12.51.22:790][410]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/OceanStudies/OceanStudies' took 0.130
+[2021.05.14-12.51.22:790][410]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.130
+[2021.05.14-12.52.12:072][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.14-12.52.12:102][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.05.14-12.52.12:195][764]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies4C1CDE08411DEA6A83AE0EAF479D7C36.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap'
+[2021.05.14-12.52.12:315][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset" SILENT=true
+[2021.05.14-12.52.12:454][764]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_BuiltData6F75050F44968B881DDF409705F9D4DC.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset'
+[2021.05.14-12.52.12:467][764]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.14-12.52.12:467][764]LogContentValidation: Display: Validating World /Game/OceanStudies/OceanStudies.OceanStudies
+[2021.05.14-12.52.12:467][764]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/OceanStudies/OceanStudies_BuiltData.OceanStudies_BuiltData
+[2021.05.14-12.54.23:516][550]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-12.54.23:683][550]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.05.14-12.54.26:554][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat_Vehicle" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset" SILENT=true
+[2021.05.14-12.54.26:615][748]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_VehicleD8141B7A446DC81D5A4104A7C4814506.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset'
+[2021.05.14-12.54.26:631][748]AssetCheck: New page: Asset Save: Boat_Vehicle
+[2021.05.14-12.54.26:631][748]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat_Vehicle.Boat_Vehicle
+[2021.05.14-12.56.09:655][823]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-12.56.09:743][823]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2021.05.14-12.57.17:610][299]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.14-12.57.17:682][299]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2021.05.14-12.57.21:527][615]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/ThirdPersonCharacter88F3846C4F7D84F9C81AE0A24A5EB5CF.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.14-12.57.21:547][615]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.14-12.57.21:547][615]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.14-13.01.00:990][139]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-13.01.01:077][139]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2021.05.14-13.01.01:812][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat_Vehicle" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset" SILENT=true
+[2021.05.14-13.01.01:876][173]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_Vehicle7B22452948A2530A0DE65BA61045A0F1.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset'
+[2021.05.14-13.01.01:895][173]AssetCheck: New page: Asset Save: Boat_Vehicle
+[2021.05.14-13.01.01:895][173]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat_Vehicle.Boat_Vehicle
+[2021.05.14-13.01.26:562][672]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-13.01.26:652][672]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.05.14-13.01.27:296][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat_Vehicle" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset" SILENT=true
+[2021.05.14-13.01.27:357][695]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_Vehicle0BBE9B604D685C1808636F9F204CCFF3.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset'
+[2021.05.14-13.01.27:371][695]AssetCheck: New page: Asset Save: Boat_Vehicle
+[2021.05.14-13.01.27:371][695]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat_Vehicle.Boat_Vehicle
+[2021.05.14-13.01.32:603][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.01.32:612][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.01.32:612][ 93]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:01:32 AM)
+[2021.05.14-13.01.32:652][ 93]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.01.32:673][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020523s)
+[2021.05.14-13.01.32:675][ 93]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.01.32:675][ 93]LogPlayLevel: PIE: World Init took: (0.002620s)
+[2021.05.14-13.01.32:676][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023430s)
+[2021.05.14-13.01.32:711][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.05.14-13.01.32:714][ 93]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.05.14-13.01.32:714][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.01.32:714][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.01.32:714][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.01.32:714][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.01.32:714][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.01.32:715][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.01.32:715][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.01.32:715][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.01.32:716][ 93]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.01.32:716][ 93]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.01.32:729][ 93]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.01.32:729][ 93]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.01.32:771][ 93]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.01.32:771][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.01.32:772][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.01.32:772][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.01.32:772][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.01.32:772][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.01.32:772][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.01.32:787][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.01.32:787][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.01.32:787][ 93]LogInit: FAudioDevice initialized.
+[2021.05.14-13.01.32:787][ 93]LogAudio: Display: Audio Device (ID: 23) registered with world 'OceanStudies'.
+[2021.05.14-13.01.32:801][ 93]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.01.32:804][ 93]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.01.32
+[2021.05.14-13.01.32:804][ 93]LogWorld: Bringing up level for play took: 0.003220
+[2021.05.14-13.01.32:804][ 93]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.05.14-13.01.32:833][ 93]PIE: Server logged in
+[2021.05.14-13.01.32:834][ 93]PIE: Play in editor total start time 0.224 seconds.
+[2021.05.14-13.01.38:434][748]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.01.51:643][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.01.51:643][325]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.01.51:643][325]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.01.51:644][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.01.51:668][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.01.51:673][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.01.51:706][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.01.51:706][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.01.51:707][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.01.51:725][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.01.51:732][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.05.14-13.01.51:760][326]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.05.14-13.01.53:212][490]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.01.53:219][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.01.53:219][490]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:01:53 AM)
+[2021.05.14-13.01.53:252][490]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.01.53:272][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019510s)
+[2021.05.14-13.01.53:273][490]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.01.53:273][490]LogPlayLevel: PIE: World Init took: (0.001659s)
+[2021.05.14-13.01.53:273][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.021442s)
+[2021.05.14-13.01.53:306][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.05.14-13.01.53:307][490]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.01.53:307][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.01.53:307][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.01.53:308][490]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.01.53:308][490]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.01.53:320][490]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.01.53:320][490]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.01.53:362][490]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.01.53:363][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.01.53:363][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.01.53:363][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.01.53:363][490]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.01.53:363][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.01.53:363][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.01.53:379][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.01.53:379][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.01.53:379][490]LogInit: FAudioDevice initialized.
+[2021.05.14-13.01.53:379][490]LogAudio: Display: Audio Device (ID: 24) registered with world 'OceanStudies'.
+[2021.05.14-13.01.53:391][490]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.01.53:395][490]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.01.53
+[2021.05.14-13.01.53:396][490]LogWorld: Bringing up level for play took: 0.004146
+[2021.05.14-13.01.53:397][490]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.05.14-13.01.53:400][490]PIE: Server logged in
+[2021.05.14-13.01.53:401][490]PIE: Play in editor total start time 0.182 seconds.
+[2021.05.14-13.01.56:437][851]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.02.06:773][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.02.06:773][ 76]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.02.06:773][ 76]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.02.06:773][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.02.06:787][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.02.06:793][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.02.06:823][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.02.06:824][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.02.06:825][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.02.06:846][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.05.14-13.02.06:873][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.05.14-13.02.44:734][409]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2021.05.14-13.02.44:835][409]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_Auto615BB06E8435355200D2FC3B47D5EEF4E.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Autosaves/Game/OceanStudies/OceanStudies_Auto6.umap'
+[2021.05.14-13.02.44:837][409]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/OceanStudies/OceanStudies' took 0.136
+[2021.05.14-13.02.44:837][409]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.136
+[2021.05.14-13.07.54:891][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.14-13.07.54:927][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.05.14-13.07.55:017][334]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudiesB21E91B1422D9DADF0AB0F8BA2F3ACF0.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap'
+[2021.05.14-13.07.55:138][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset" SILENT=true
+[2021.05.14-13.07.55:274][334]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_BuiltData60948AE2449A7698A368A38AA1A4E1CB.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset'
+[2021.05.14-13.07.55:287][334]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.14-13.07.55:288][334]LogContentValidation: Display: Validating World /Game/OceanStudies/OceanStudies.OceanStudies
+[2021.05.14-13.07.55:288][334]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/OceanStudies/OceanStudies_BuiltData.OceanStudies_BuiltData
+[2021.05.14-13.12.22:485][299]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.12.22:493][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.12.22:493][299]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:12:22 AM)
+[2021.05.14-13.12.22:493][299]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.12.22:517][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023427s)
+[2021.05.14-13.12.22:518][299]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.12.22:519][299]LogPlayLevel: PIE: World Init took: (0.001900s)
+[2021.05.14-13.12.22:519][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.025602s)
+[2021.05.14-13.12.22:559][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.05.14-13.12.22:563][299]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.12.22:563][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.12.22:563][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.12.22:563][299]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.12.22:564][299]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.12.22:578][299]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.12.22:578][299]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.12.22:617][299]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.12.22:617][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.12.22:617][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.12.22:618][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.12.22:618][299]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.12.22:618][299]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.12.22:618][299]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.12.22:635][299]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.12.22:635][299]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.12.22:635][299]LogInit: FAudioDevice initialized.
+[2021.05.14-13.12.22:635][299]LogAudio: Display: Audio Device (ID: 25) registered with world 'OceanStudies'.
+[2021.05.14-13.12.22:645][299]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.12.22:649][299]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.12.22
+[2021.05.14-13.12.22:651][299]LogWorld: Bringing up level for play took: 0.003958
+[2021.05.14-13.12.22:651][299]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.05.14-13.12.22:656][299]PIE: Server logged in
+[2021.05.14-13.12.22:657][299]PIE: Play in editor total start time 0.166 seconds.
+[2021.05.14-13.12.26:296][725]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.12.39:815][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.12.39:815][322]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.12.39:815][322]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.12.39:816][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.12.39:827][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.12.39:832][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.12.39:862][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.12.39:863][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.12.39:864][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.12.39:889][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.05.14-13.12.39:922][323]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.05.14-13.12.47:183][150]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.12.47:191][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.12.47:191][150]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:12:47 AM)
+[2021.05.14-13.12.47:213][150]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.12.47:232][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018382s)
+[2021.05.14-13.12.47:233][150]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.12.47:234][150]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2021.05.14-13.12.47:234][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.020261s)
+[2021.05.14-13.12.47:269][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.05.14-13.12.47:273][150]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.12.47:273][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.12.47:273][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.12.47:274][150]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.12.47:274][150]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.12.47:288][150]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.12.47:288][150]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.12.47:328][150]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.12.47:328][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.12.47:328][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.12.47:328][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.12.47:329][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.12.47:329][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.12.47:329][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.12.47:346][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.12.47:346][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.12.47:346][150]LogInit: FAudioDevice initialized.
+[2021.05.14-13.12.47:346][150]LogAudio: Display: Audio Device (ID: 26) registered with world 'OceanStudies'.
+[2021.05.14-13.12.47:356][150]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.12.47:359][150]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.12.47
+[2021.05.14-13.12.47:359][150]LogWorld: Bringing up level for play took: 0.002656
+[2021.05.14-13.12.47:360][150]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.05.14-13.12.47:363][150]PIE: Server logged in
+[2021.05.14-13.12.47:364][150]PIE: Play in editor total start time 0.173 seconds.
+[2021.05.14-13.12.59:027][ 68]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.13.10:244][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.10:244][329]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.10:244][329]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.13.10:245][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.10:260][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.13.10:269][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.10:305][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.10:305][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.10:307][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.10:331][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.05.14-13.13.10:365][330]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.05.14-13.13.17:157][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.13.17:163][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.13.17:163][ 44]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:13:17 AM)
+[2021.05.14-13.13.17:164][ 44]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.17:184][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020113s)
+[2021.05.14-13.13.17:185][ 44]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.13.17:186][ 44]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2021.05.14-13.13.17:186][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.021841s)
+[2021.05.14-13.13.17:223][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2021.05.14-13.13.17:225][ 44]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.13.17:225][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.13.17:225][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.13.17:226][ 44]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.13.17:226][ 44]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.13.17:237][ 44]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.13.17:237][ 44]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.13.17:281][ 44]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.13.17:281][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.13.17:281][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.13.17:282][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.13.17:282][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.13.17:282][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.13.17:282][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.13.17:299][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.13.17:300][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.13.17:300][ 44]LogInit: FAudioDevice initialized.
+[2021.05.14-13.13.17:300][ 44]LogAudio: Display: Audio Device (ID: 27) registered with world 'OceanStudies'.
+[2021.05.14-13.13.17:311][ 44]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.13.17:314][ 44]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.13.17
+[2021.05.14-13.13.17:315][ 44]LogWorld: Bringing up level for play took: 0.003051
+[2021.05.14-13.13.17:315][ 44]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.05.14-13.13.17:318][ 44]PIE: Server logged in
+[2021.05.14-13.13.17:319][ 44]PIE: Play in editor total start time 0.157 seconds.
+[2021.05.14-13.13.20:036][363]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.13.28:265][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.28:265][334]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.28:265][334]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.13.28:265][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.28:275][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.13.28:281][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.28:310][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.28:311][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.28:312][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.28:335][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.05.14-13.13.28:365][335]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.05.14-13.13.29:436][455]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.13.29:445][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.13.29:445][455]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:13:29 AM)
+[2021.05.14-13.13.29:473][455]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.29:496][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022194s)
+[2021.05.14-13.13.29:497][455]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.13.29:497][455]LogPlayLevel: PIE: World Init took: (0.001659s)
+[2021.05.14-13.13.29:498][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.024164s)
+[2021.05.14-13.13.29:532][455]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.05.14-13.13.29:533][455]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.13.29:533][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.13.29:533][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.13.29:534][455]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.13.29:534][455]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.13.29:548][455]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.13.29:548][455]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.13.29:596][455]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.13.29:596][455]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.13.29:615][455]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.13.29:615][455]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.13.29:615][455]LogInit: FAudioDevice initialized.
+[2021.05.14-13.13.29:615][455]LogAudio: Display: Audio Device (ID: 28) registered with world 'OceanStudies'.
+[2021.05.14-13.13.29:624][455]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.13.29:627][455]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.13.29
+[2021.05.14-13.13.29:628][455]LogWorld: Bringing up level for play took: 0.002776
+[2021.05.14-13.13.29:628][455]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.05.14-13.13.29:631][455]PIE: Server logged in
+[2021.05.14-13.13.29:632][455]PIE: Play in editor total start time 0.187 seconds.
+[2021.05.14-13.13.32:111][747]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.13.38:025][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.38:025][447]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.38:025][447]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.13.38:026][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.38:034][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.13.38:040][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.38:071][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.38:072][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.38:073][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.38:097][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.05.14-13.13.38:126][448]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.05.14-13.13.39:120][557]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.13.39:126][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.13.39:127][557]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:13:39 AM)
+[2021.05.14-13.13.39:154][557]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.39:174][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020153s)
+[2021.05.14-13.13.39:175][557]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.13.39:176][557]LogPlayLevel: PIE: World Init took: (0.001750s)
+[2021.05.14-13.13.39:176][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022163s)
+[2021.05.14-13.13.39:212][557]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.05.14-13.13.39:213][557]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.13.39:213][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.13.39:213][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.13.39:214][557]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.13.39:214][557]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.13.39:226][557]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.13.39:226][557]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.13.39:269][557]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.13.39:269][557]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.13.39:269][557]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.13.39:269][557]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.13.39:270][557]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.13.39:270][557]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.13.39:270][557]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.13.39:286][557]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.13.39:286][557]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.13.39:286][557]LogInit: FAudioDevice initialized.
+[2021.05.14-13.13.39:286][557]LogAudio: Display: Audio Device (ID: 29) registered with world 'OceanStudies'.
+[2021.05.14-13.13.39:296][557]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.13.39:299][557]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.13.39
+[2021.05.14-13.13.39:300][557]LogWorld: Bringing up level for play took: 0.002436
+[2021.05.14-13.13.39:300][557]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.05.14-13.13.39:303][557]PIE: Server logged in
+[2021.05.14-13.13.39:304][557]PIE: Play in editor total start time 0.179 seconds.
+[2021.05.14-13.13.46:490][405]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.13.57:105][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.57:105][663]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.57:105][663]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.13.57:106][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.57:119][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.13.57:126][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.13.57:156][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.13.57:157][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.57:158][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.13.57:182][663]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.05.14-13.13.57:215][664]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.05.14-13.13.58:520][814]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.13.58:528][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.13.58:528][814]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:13:58 AM)
+[2021.05.14-13.13.58:574][814]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.13.58:596][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021685s)
+[2021.05.14-13.13.58:597][814]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.13.58:597][814]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2021.05.14-13.13.58:597][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023293s)
+[2021.05.14-13.13.58:630][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.05.14-13.13.58:631][814]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.13.58:631][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.13.58:631][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.13.58:632][814]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.13.58:632][814]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.13.58:646][814]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.13.58:646][814]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.13.58:700][814]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.13.58:700][814]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.13.58:719][814]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.13.58:719][814]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.13.58:719][814]LogInit: FAudioDevice initialized.
+[2021.05.14-13.13.58:719][814]LogAudio: Display: Audio Device (ID: 30) registered with world 'OceanStudies'.
+[2021.05.14-13.13.58:728][814]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.13.58:732][814]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.13.58
+[2021.05.14-13.13.58:733][814]LogWorld: Bringing up level for play took: 0.003285
+[2021.05.14-13.13.58:733][814]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.05.14-13.13.58:736][814]PIE: Server logged in
+[2021.05.14-13.13.58:737][814]PIE: Play in editor total start time 0.21 seconds.
+[2021.05.14-13.14.01:220][107]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.14.10:515][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.10:515][199]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.10:515][199]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.10:516][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.10:527][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.10:533][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.10:565][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.10:566][199]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.10:567][199]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.10:590][199]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.05.14-13.14.10:617][200]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.05.14-13.14.13:852][560]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.14.13:858][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.14.13:858][560]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:14:13 AM)
+[2021.05.14-13.14.13:884][560]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.13:903][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019129s)
+[2021.05.14-13.14.13:904][560]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.14.13:904][560]LogPlayLevel: PIE: World Init took: (0.001521s)
+[2021.05.14-13.14.13:905][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.020974s)
+[2021.05.14-13.14.13:940][560]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.05.14-13.14.13:942][560]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.14.13:942][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.14.13:942][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.14.13:943][560]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.14.13:943][560]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.14.13:957][560]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.14.13:957][560]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.14.13:998][560]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.14.13:998][560]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.14.13:998][560]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.14.13:998][560]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.14.13:998][560]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.14.13:998][560]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.14.13:999][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.14.14:016][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.14.14:016][560]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.14.14:016][560]LogInit: FAudioDevice initialized.
+[2021.05.14-13.14.14:016][560]LogAudio: Display: Audio Device (ID: 31) registered with world 'OceanStudies'.
+[2021.05.14-13.14.14:028][560]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.14.14:032][560]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.14.14
+[2021.05.14-13.14.14:033][560]LogWorld: Bringing up level for play took: 0.003342
+[2021.05.14-13.14.14:033][560]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.05.14-13.14.14:037][560]PIE: Server logged in
+[2021.05.14-13.14.14:037][560]PIE: Play in editor total start time 0.18 seconds.
+[2021.05.14-13.14.22:555][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.22:555][562]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.22:556][562]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.22:556][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.22:573][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.22:581][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.22:611][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.22:612][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.22:613][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.22:639][562]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.05.14-13.14.22:669][563]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.05.14-13.14.23:470][649]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.14.23:476][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.14.23:476][649]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:14:23 AM)
+[2021.05.14-13.14.23:513][649]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.23:532][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018782s)
+[2021.05.14-13.14.23:533][649]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.14.23:534][649]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2021.05.14-13.14.23:534][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.020436s)
+[2021.05.14-13.14.23:568][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.05.14-13.14.23:569][649]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.14.23:569][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.14.23:569][649]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.14.23:569][649]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.14.23:570][649]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.14.23:583][649]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.14.23:583][649]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.14.23:621][649]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.14.23:622][649]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.14.23:622][649]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.14.23:622][649]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.14.23:622][649]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.14.23:622][649]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.14.23:622][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.14.23:643][649]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.14.23:643][649]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.14.23:643][649]LogInit: FAudioDevice initialized.
+[2021.05.14-13.14.23:643][649]LogAudio: Display: Audio Device (ID: 32) registered with world 'OceanStudies'.
+[2021.05.14-13.14.23:653][649]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.14.23:658][649]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.14.23
+[2021.05.14-13.14.23:659][649]LogWorld: Bringing up level for play took: 0.004755
+[2021.05.14-13.14.23:660][649]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2021.05.14-13.14.23:665][649]PIE: Server logged in
+[2021.05.14-13.14.23:666][649]PIE: Play in editor total start time 0.19 seconds.
+[2021.05.14-13.14.25:772][896]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.14.33:095][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.33:095][755]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.33:095][755]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.33:096][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.33:109][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.33:115][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.33:148][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.33:148][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.33:149][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.33:172][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.05.14-13.14.33:205][756]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2021.05.14-13.14.34:503][900]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.14.34:511][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.14.34:511][900]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:14:34 AM)
+[2021.05.14-13.14.34:534][900]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.34:553][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019984s)
+[2021.05.14-13.14.34:554][900]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.14.34:555][900]LogPlayLevel: PIE: World Init took: (0.001689s)
+[2021.05.14-13.14.34:555][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.021921s)
+[2021.05.14-13.14.34:590][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.05.14-13.14.34:591][900]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.14.34:591][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.14.34:591][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.14.34:592][900]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.14.34:592][900]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.14.34:603][900]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.14.34:603][900]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.14.34:648][900]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.14.34:649][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.14.34:649][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.14.34:649][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.14.34:649][900]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.14.34:649][900]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.14.34:649][900]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.14.34:668][900]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.14.34:668][900]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.14.34:668][900]LogInit: FAudioDevice initialized.
+[2021.05.14-13.14.34:668][900]LogAudio: Display: Audio Device (ID: 33) registered with world 'OceanStudies'.
+[2021.05.14-13.14.34:681][900]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.14.34:685][900]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.14.34
+[2021.05.14-13.14.34:686][900]LogWorld: Bringing up level for play took: 0.004521
+[2021.05.14-13.14.34:686][900]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2021.05.14-13.14.34:691][900]PIE: Server logged in
+[2021.05.14-13.14.34:692][900]PIE: Play in editor total start time 0.183 seconds.
+[2021.05.14-13.14.37:292][206]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.14.39:985][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.39:985][521]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.39:985][521]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.39:986][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.39:997][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.40:002][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.40:032][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.40:032][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.40:033][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.40:057][521]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.05.14-13.14.40:084][522]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2021.05.14-13.14.41:763][697]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.14.41:770][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.14.41:770][697]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:14:41 AM)
+[2021.05.14-13.14.41:794][697]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.41:812][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018053s)
+[2021.05.14-13.14.41:813][697]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.14.41:814][697]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2021.05.14-13.14.41:814][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.020271s)
+[2021.05.14-13.14.41:851][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.05.14-13.14.41:852][697]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.14.41:852][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.14.41:852][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.14.41:853][697]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.14.41:853][697]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.14.41:866][697]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.14.41:866][697]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.14.41:908][697]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.14.41:908][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.14.41:908][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.14.41:908][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.14.41:909][697]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.14.41:909][697]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.14.41:909][697]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.14.41:931][697]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.14.41:931][697]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.14.41:931][697]LogInit: FAudioDevice initialized.
+[2021.05.14-13.14.41:931][697]LogAudio: Display: Audio Device (ID: 34) registered with world 'OceanStudies'.
+[2021.05.14-13.14.41:945][697]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.14.41:948][697]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.14.41
+[2021.05.14-13.14.41:949][697]LogWorld: Bringing up level for play took: 0.002803
+[2021.05.14-13.14.41:949][697]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.05.14-13.14.41:953][697]PIE: Server logged in
+[2021.05.14-13.14.41:954][697]PIE: Play in editor total start time 0.185 seconds.
+[2021.05.14-13.14.48:474][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.48:474][465]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.48:474][465]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.48:475][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.48:489][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.48:499][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.48:529][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.48:529][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.48:531][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.48:556][465]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.05.14-13.14.48:586][466]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.05.14-13.14.49:405][556]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.14.49:413][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.14.49:413][556]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:14:49 AM)
+[2021.05.14-13.14.49:453][556]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.49:474][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020765s)
+[2021.05.14-13.14.49:476][556]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.14.49:476][556]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2021.05.14-13.14.49:476][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022460s)
+[2021.05.14-13.14.49:512][556]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.05.14-13.14.49:512][556]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.14.49:512][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.14.49:512][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.14.49:513][556]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.14.49:513][556]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.14.49:526][556]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.14.49:526][556]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.14.49:570][556]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.14.49:570][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.14.49:570][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.14.49:570][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.14.49:570][556]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.14.49:571][556]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.14.49:571][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.14.49:588][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.14.49:588][556]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.14.49:588][556]LogInit: FAudioDevice initialized.
+[2021.05.14-13.14.49:588][556]LogAudio: Display: Audio Device (ID: 35) registered with world 'OceanStudies'.
+[2021.05.14-13.14.49:599][556]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.14.49:602][556]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.14.49
+[2021.05.14-13.14.49:603][556]LogWorld: Bringing up level for play took: 0.002841
+[2021.05.14-13.14.49:603][556]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.05.14-13.14.49:607][556]PIE: Server logged in
+[2021.05.14-13.14.49:609][556]PIE: Play in editor total start time 0.196 seconds.
+[2021.05.14-13.14.52:950][950]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.14.59:255][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.59:255][695]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.14.59:255][695]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.14.59:256][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.59:270][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.14.59:279][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.14.59:309][695]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.14.59:309][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.59:311][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.14.59:329][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.14.59:336][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.05.14-13.14.59:366][696]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.05.14-13.15.00:228][788]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.15.00:235][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.15.00:235][788]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:15:00 AM)
+[2021.05.14-13.15.00:263][788]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.00:283][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019291s)
+[2021.05.14-13.15.00:285][788]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.15.00:286][788]LogPlayLevel: PIE: World Init took: (0.002264s)
+[2021.05.14-13.15.00:286][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.021876s)
+[2021.05.14-13.15.00:323][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.05.14-13.15.00:324][788]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.15.00:324][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.15.00:324][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.15.00:325][788]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.15.00:325][788]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.15.00:336][788]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.15.00:336][788]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.15.00:377][788]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.15.00:378][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.15.00:378][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.15.00:378][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.15.00:378][788]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.15.00:378][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.15.00:378][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.15.00:395][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.15.00:395][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.15.00:395][788]LogInit: FAudioDevice initialized.
+[2021.05.14-13.15.00:395][788]LogAudio: Display: Audio Device (ID: 36) registered with world 'OceanStudies'.
+[2021.05.14-13.15.00:403][788]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.15.00:406][788]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.15.00
+[2021.05.14-13.15.00:408][788]LogWorld: Bringing up level for play took: 0.003386
+[2021.05.14-13.15.00:408][788]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.05.14-13.15.00:411][788]PIE: Server logged in
+[2021.05.14-13.15.00:412][788]PIE: Play in editor total start time 0.179 seconds.
+[2021.05.14-13.15.02:861][ 75]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.15.08:055][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.08:055][686]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.08:056][686]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.15.08:056][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.08:069][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.15.08:075][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.08:105][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.08:107][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.08:109][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.08:132][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.05.14-13.15.08:162][687]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.05.14-13.15.09:652][856]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.15.09:661][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.15.09:661][856]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:15:09 AM)
+[2021.05.14-13.15.09:694][856]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.09:718][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024035s)
+[2021.05.14-13.15.09:720][856]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.15.09:720][856]LogPlayLevel: PIE: World Init took: (0.001934s)
+[2021.05.14-13.15.09:720][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.026225s)
+[2021.05.14-13.15.09:757][856]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.05.14-13.15.09:758][856]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.15.09:758][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.15.09:758][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.15.09:759][856]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.15.09:759][856]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.15.09:771][856]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.15.09:771][856]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.15.09:811][856]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.15.09:811][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.15.09:811][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.15.09:811][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.15.09:812][856]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.15.09:812][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.15.09:812][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.15.09:830][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.15.09:830][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.15.09:830][856]LogInit: FAudioDevice initialized.
+[2021.05.14-13.15.09:831][856]LogAudio: Display: Audio Device (ID: 37) registered with world 'OceanStudies'.
+[2021.05.14-13.15.09:839][856]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.15.09:843][856]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.15.09
+[2021.05.14-13.15.09:844][856]LogWorld: Bringing up level for play took: 0.003902
+[2021.05.14-13.15.09:844][856]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.05.14-13.15.09:847][856]PIE: Server logged in
+[2021.05.14-13.15.09:848][856]PIE: Play in editor total start time 0.189 seconds.
+[2021.05.14-13.15.12:650][184]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.15.20:965][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.20:965][170]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.20:965][170]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.15.20:966][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.20:977][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.15.20:984][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.21:014][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.21:015][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.21:016][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.21:040][170]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.05.14-13.15.21:069][171]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.05.14-13.15.22:748][359]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.15.22:755][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.15.22:755][359]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:15:22 AM)
+[2021.05.14-13.15.22:755][359]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.22:775][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020392s)
+[2021.05.14-13.15.22:776][359]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.15.22:777][359]LogPlayLevel: PIE: World Init took: (0.001787s)
+[2021.05.14-13.15.22:777][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022369s)
+[2021.05.14-13.15.22:810][359]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.05.14-13.15.22:811][359]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.15.22:811][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.15.22:811][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.15.22:812][359]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.15.22:812][359]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.15.22:824][359]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.15.22:824][359]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.15.22:867][359]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.15.22:868][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.15.22:868][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.15.22:868][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.15.22:868][359]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.15.22:868][359]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.15.22:868][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.15.22:886][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.15.22:886][359]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.15.22:886][359]LogInit: FAudioDevice initialized.
+[2021.05.14-13.15.22:886][359]LogAudio: Display: Audio Device (ID: 38) registered with world 'OceanStudies'.
+[2021.05.14-13.15.22:897][359]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.15.22:900][359]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.15.22
+[2021.05.14-13.15.22:901][359]LogWorld: Bringing up level for play took: 0.002850
+[2021.05.14-13.15.22:901][359]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.05.14-13.15.22:905][359]PIE: Server logged in
+[2021.05.14-13.15.22:906][359]PIE: Play in editor total start time 0.152 seconds.
+[2021.05.14-13.15.27:446][891]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.15.34:286][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.34:286][692]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.34:286][692]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.15.34:287][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.34:301][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.15.34:307][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.34:339][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.34:339][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.34:341][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.34:369][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.05.14-13.15.34:400][693]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.05.14-13.15.39:344][236]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.15.39:352][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.15.39:352][236]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:15:39 AM)
+[2021.05.14-13.15.39:373][236]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.39:397][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023073s)
+[2021.05.14-13.15.39:398][236]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.15.39:398][236]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2021.05.14-13.15.39:398][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.024676s)
+[2021.05.14-13.15.39:434][236]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.05.14-13.15.39:436][236]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.15.39:436][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.15.39:436][236]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.15.39:436][236]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.15.39:449][236]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.15.39:449][236]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.15.39:493][236]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.15.39:494][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.15.39:494][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.15.39:494][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.15.39:494][236]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.15.39:494][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.15.39:494][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.15.39:510][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.15.39:510][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.15.39:510][236]LogInit: FAudioDevice initialized.
+[2021.05.14-13.15.39:510][236]LogAudio: Display: Audio Device (ID: 39) registered with world 'OceanStudies'.
+[2021.05.14-13.15.39:520][236]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.15.39:525][236]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.15.39
+[2021.05.14-13.15.39:526][236]LogWorld: Bringing up level for play took: 0.004386
+[2021.05.14-13.15.39:526][236]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.05.14-13.15.39:529][236]PIE: Server logged in
+[2021.05.14-13.15.39:530][236]PIE: Play in editor total start time 0.179 seconds.
+[2021.05.14-13.15.42:533][583]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.15.46:765][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.46:765][ 85]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.46:765][ 85]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.15.46:766][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.46:779][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.15.46:784][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.46:815][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.46:816][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.46:817][ 85]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.46:841][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.05.14-13.15.46:875][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.05.14-13.15.47:883][201]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.15.47:891][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.15.47:891][201]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:15:47 AM)
+[2021.05.14-13.15.47:924][201]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.47:946][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021623s)
+[2021.05.14-13.15.47:947][201]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.15.47:947][201]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2021.05.14-13.15.47:948][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023326s)
+[2021.05.14-13.15.47:985][201]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2021.05.14-13.15.47:986][201]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.15.47:986][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.15.47:986][201]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.15.47:986][201]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.15.47:998][201]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.15.47:998][201]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.15.48:041][201]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.15.48:042][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.15.48:042][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.15.48:042][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.15.48:042][201]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.15.48:042][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.15.48:042][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.15.48:061][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.15.48:061][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.15.48:061][201]LogInit: FAudioDevice initialized.
+[2021.05.14-13.15.48:061][201]LogAudio: Display: Audio Device (ID: 40) registered with world 'OceanStudies'.
+[2021.05.14-13.15.48:068][201]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.15.48:071][201]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.15.48
+[2021.05.14-13.15.48:072][201]LogWorld: Bringing up level for play took: 0.003056
+[2021.05.14-13.15.48:073][201]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2021.05.14-13.15.48:077][201]PIE: Server logged in
+[2021.05.14-13.15.48:078][201]PIE: Play in editor total start time 0.189 seconds.
+[2021.05.14-13.15.50:648][504]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.15.55:295][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.55:295][ 53]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.15.55:295][ 53]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.15.55:295][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.55:303][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.15.55:313][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.15.55:346][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.15.55:347][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.55:348][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.15.55:365][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.15.55:371][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.05.14-13.15.55:402][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2021.05.14-13.16.23:585][890]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.16.23:592][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.16.23:592][890]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:16:23 AM)
+[2021.05.14-13.16.23:592][890]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.16.23:612][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020115s)
+[2021.05.14-13.16.23:614][890]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.16.23:614][890]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2021.05.14-13.16.23:615][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022248s)
+[2021.05.14-13.16.23:652][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.05.14-13.16.23:656][890]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.16.23:656][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.16.23:656][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.16.23:657][890]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.16.23:657][890]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.16.23:670][890]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.16.23:670][890]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.16.23:713][890]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.16.23:714][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.16.23:714][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.16.23:714][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.16.23:714][890]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.16.23:714][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.16.23:714][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.16.23:730][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.16.23:730][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.16.23:730][890]LogInit: FAudioDevice initialized.
+[2021.05.14-13.16.23:730][890]LogAudio: Display: Audio Device (ID: 41) registered with world 'OceanStudies'.
+[2021.05.14-13.16.23:735][890]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.16.23:738][890]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.16.23
+[2021.05.14-13.16.23:739][890]LogWorld: Bringing up level for play took: 0.002905
+[2021.05.14-13.16.23:739][890]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.05.14-13.16.23:745][890]PIE: Server logged in
+[2021.05.14-13.16.23:746][890]PIE: Play in editor total start time 0.155 seconds.
+[2021.05.14-13.16.26:838][ 95]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.16.29:934][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.16.29:934][305]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.16.29:935][305]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.16.29:935][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.16.29:960][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.16.29:976][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.16.30:008][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.16.30:009][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.16.30:010][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.16.30:028][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.16.30:034][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.05.14-13.16.30:150][306]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.05.14-13.16.31:200][351]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.16.31:207][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.16.31:207][351]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:16:31 AM)
+[2021.05.14-13.16.31:208][351]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.16.31:230][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021948s)
+[2021.05.14-13.16.31:231][351]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.16.31:231][351]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2021.05.14-13.16.31:231][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023699s)
+[2021.05.14-13.16.31:269][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.05.14-13.16.31:270][351]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.16.31:270][351]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.16.31:270][351]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.16.31:271][351]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.16.31:271][351]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.16.31:285][351]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.16.31:285][351]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.16.31:331][351]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.16.31:332][351]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.16.31:332][351]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.16.31:332][351]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.16.31:332][351]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.16.31:332][351]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.16.31:332][351]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.16.31:349][351]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.16.31:349][351]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.16.31:349][351]LogInit: FAudioDevice initialized.
+[2021.05.14-13.16.31:349][351]LogAudio: Display: Audio Device (ID: 42) registered with world 'OceanStudies'.
+[2021.05.14-13.16.31:355][351]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.16.31:359][351]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.16.31
+[2021.05.14-13.16.31:360][351]LogWorld: Bringing up level for play took: 0.004364
+[2021.05.14-13.16.31:361][351]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.05.14-13.16.31:365][351]PIE: Server logged in
+[2021.05.14-13.16.31:366][351]PIE: Play in editor total start time 0.159 seconds.
+[2021.05.14-13.16.34:598][551]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.16.38:965][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.16.38:965][846]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.16.38:965][846]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.16.38:966][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.16.38:992][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.16.39:006][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.16.39:038][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.16.39:038][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.16.39:040][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.16.39:064][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.05.14-13.16.39:176][847]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.05.14-13.16.40:615][914]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.16.40:622][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.16.40:622][914]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:16:40 AM)
+[2021.05.14-13.16.40:622][914]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.16.40:643][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021001s)
+[2021.05.14-13.16.40:644][914]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.16.40:645][914]LogPlayLevel: PIE: World Init took: (0.001551s)
+[2021.05.14-13.16.40:645][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022782s)
+[2021.05.14-13.16.40:679][914]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.05.14-13.16.40:681][914]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.16.40:681][914]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.16.40:681][914]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.16.40:681][914]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.16.40:693][914]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.16.40:693][914]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.16.40:735][914]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.16.40:735][914]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.16.40:735][914]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.16.40:735][914]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.16.40:736][914]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.16.40:736][914]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.16.40:736][914]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.16.40:753][914]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.16.40:753][914]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.16.40:753][914]LogInit: FAudioDevice initialized.
+[2021.05.14-13.16.40:753][914]LogAudio: Display: Audio Device (ID: 43) registered with world 'OceanStudies'.
+[2021.05.14-13.16.40:761][914]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.16.40:766][914]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.16.40
+[2021.05.14-13.16.40:766][914]LogWorld: Bringing up level for play took: 0.004530
+[2021.05.14-13.16.40:767][914]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2021.05.14-13.16.40:770][914]PIE: Server logged in
+[2021.05.14-13.16.40:771][914]PIE: Play in editor total start time 0.15 seconds.
+[2021.05.14-13.16.45:125][200]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.17.22:475][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.22:476][677]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.22:476][677]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.17.22:476][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.22:505][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.17.22:519][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.22:550][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.22:551][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.22:552][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.22:579][677]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.05.14-13.17.22:691][678]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.05.14-13.17.31:784][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.14-13.17.31:821][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.05.14-13.17.31:932][175]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies11FE71704AFEE6E606FDC2968469560E.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap'
+[2021.05.14-13.17.32:058][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset" SILENT=true
+[2021.05.14-13.17.32:209][175]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_BuiltDataA372FC5D40283D38E19C359CE34E80A1.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset'
+[2021.05.14-13.17.32:223][175]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.14-13.17.32:223][175]LogContentValidation: Display: Validating World /Game/OceanStudies/OceanStudies.OceanStudies
+[2021.05.14-13.17.32:223][175]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/OceanStudies/OceanStudies_BuiltData.OceanStudies_BuiltData
+[2021.05.14-13.17.35:239][338]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.17.35:246][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.17.35:246][338]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:17:35 AM)
+[2021.05.14-13.17.35:246][338]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.35:269][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022899s)
+[2021.05.14-13.17.35:270][338]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.17.35:271][338]LogPlayLevel: PIE: World Init took: (0.001585s)
+[2021.05.14-13.17.35:271][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.024693s)
+[2021.05.14-13.17.35:309][338]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.05.14-13.17.35:311][338]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.17.35:311][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.17.35:311][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.17.35:312][338]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.17.35:312][338]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.17.35:324][338]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.17.35:324][338]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.17.35:370][338]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.17.35:370][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.17.35:370][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.17.35:370][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.17.35:372][338]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.17.35:372][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.17.35:372][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.17.35:389][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.17.35:389][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.17.35:389][338]LogInit: FAudioDevice initialized.
+[2021.05.14-13.17.35:389][338]LogAudio: Display: Audio Device (ID: 44) registered with world 'OceanStudies'.
+[2021.05.14-13.17.35:402][338]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.17.35:406][338]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.17.35
+[2021.05.14-13.17.35:407][338]LogWorld: Bringing up level for play took: 0.004893
+[2021.05.14-13.17.35:407][338]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2021.05.14-13.17.35:412][338]PIE: Server logged in
+[2021.05.14-13.17.35:413][338]PIE: Play in editor total start time 0.168 seconds.
+[2021.05.14-13.17.39:635][615]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.17.42:925][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.42:925][830]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.42:926][830]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.17.42:927][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.42:952][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.17.42:968][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.43:001][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.43:002][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.43:003][830]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.43:029][830]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2021.05.14-13.17.43:139][831]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2021.05.14-13.17.44:528][897]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.17.44:535][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.17.44:535][897]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:17:44 AM)
+[2021.05.14-13.17.44:574][897]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.44:596][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022104s)
+[2021.05.14-13.17.44:597][897]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.17.44:597][897]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2021.05.14-13.17.44:597][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023574s)
+[2021.05.14-13.17.44:635][897]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.05.14-13.17.44:637][897]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.17.44:637][897]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.17.44:637][897]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.17.44:638][897]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.17.44:638][897]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.17.44:650][897]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.17.44:650][897]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.17.44:692][897]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.17.44:693][897]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.17.44:693][897]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.17.44:693][897]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.17.44:693][897]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.17.44:693][897]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.17.44:693][897]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.17.44:710][897]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.17.44:710][897]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.17.44:710][897]LogInit: FAudioDevice initialized.
+[2021.05.14-13.17.44:710][897]LogAudio: Display: Audio Device (ID: 45) registered with world 'OceanStudies'.
+[2021.05.14-13.17.44:718][897]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.17.44:722][897]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.17.44
+[2021.05.14-13.17.44:723][897]LogWorld: Bringing up level for play took: 0.003602
+[2021.05.14-13.17.44:723][897]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2021.05.14-13.17.44:728][897]PIE: Server logged in
+[2021.05.14-13.17.44:729][897]PIE: Play in editor total start time 0.196 seconds.
+[2021.05.14-13.17.49:235][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.49:235][177]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.49:235][177]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.17.49:235][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.49:263][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.17.49:277][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.49:310][177]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.17.49:311][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.49:312][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.49:331][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.49:337][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.05.14-13.17.49:454][178]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2021.05.14-13.17.50:312][212]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.17.50:318][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.17.50:318][212]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:17:50 AM)
+[2021.05.14-13.17.50:318][212]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.50:339][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021474s)
+[2021.05.14-13.17.50:341][212]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.17.50:341][212]LogPlayLevel: PIE: World Init took: (0.001952s)
+[2021.05.14-13.17.50:341][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023594s)
+[2021.05.14-13.17.50:374][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.05.14-13.17.50:376][212]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.17.50:376][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.17.50:376][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.17.50:377][212]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.17.50:377][212]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.17.50:390][212]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.17.50:390][212]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.17.50:433][212]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.17.50:433][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.17.50:433][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.17.50:434][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.17.50:434][212]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.17.50:434][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.17.50:434][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.17.50:448][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.17.50:448][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.17.50:448][212]LogInit: FAudioDevice initialized.
+[2021.05.14-13.17.50:448][212]LogAudio: Display: Audio Device (ID: 46) registered with world 'OceanStudies'.
+[2021.05.14-13.17.50:455][212]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.17.50:459][212]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.17.50
+[2021.05.14-13.17.50:460][212]LogWorld: Bringing up level for play took: 0.004378
+[2021.05.14-13.17.50:461][212]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2021.05.14-13.17.50:465][212]PIE: Server logged in
+[2021.05.14-13.17.50:466][212]PIE: Play in editor total start time 0.149 seconds.
+[2021.05.14-13.17.53:277][395]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.17.54:205][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.54:205][454]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.54:205][454]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.17.54:206][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.54:232][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.17.54:246][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.17.54:280][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.17.54:280][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.54:280][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.17.54:308][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.05.14-13.17.54:421][455]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2021.05.14-13.17.55:258][487]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.17.55:265][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.17.55:266][487]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:17:55 AM)
+[2021.05.14-13.17.55:266][487]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.17.55:286][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020633s)
+[2021.05.14-13.17.55:288][487]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.17.55:288][487]LogPlayLevel: PIE: World Init took: (0.001609s)
+[2021.05.14-13.17.55:288][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.022418s)
+[2021.05.14-13.17.55:321][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.05.14-13.17.55:322][487]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.17.55:322][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.17.55:322][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.17.55:323][487]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.17.55:323][487]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.17.55:335][487]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.17.55:335][487]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.17.55:378][487]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.17.55:378][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.17.55:378][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.17.55:378][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.17.55:378][487]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.17.55:379][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.17.55:379][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.17.55:398][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.17.55:398][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.17.55:398][487]LogInit: FAudioDevice initialized.
+[2021.05.14-13.17.55:398][487]LogAudio: Display: Audio Device (ID: 47) registered with world 'OceanStudies'.
+[2021.05.14-13.17.55:407][487]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.17.55:411][487]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.17.55
+[2021.05.14-13.17.55:412][487]LogWorld: Bringing up level for play took: 0.003941
+[2021.05.14-13.17.55:412][487]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2021.05.14-13.17.55:416][487]PIE: Server logged in
+[2021.05.14-13.17.55:417][487]PIE: Play in editor total start time 0.152 seconds.
+[2021.05.14-13.17.57:844][648]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.18.13:516][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.13:516][675]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.18.13:516][675]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.18.13:517][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.13:538][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.18.13:555][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.13:584][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.13:584][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.13:585][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.13:610][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.05.14-13.18.13:722][676]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2021.05.14-13.18.15:558][770]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.18.15:566][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.18.15:566][770]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:18:15 AM)
+[2021.05.14-13.18.15:566][770]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.18.15:588][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021717s)
+[2021.05.14-13.18.15:589][770]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.18.15:589][770]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2021.05.14-13.18.15:589][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.023112s)
+[2021.05.14-13.18.15:626][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.05.14-13.18.15:628][770]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.18.15:628][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.18.15:628][770]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.18.15:628][770]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.18.15:639][770]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.18.15:639][770]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.18.15:684][770]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.18.15:685][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.18.15:685][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.18.15:685][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.18.15:685][770]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.18.15:685][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.18.15:685][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.18.15:704][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.18.15:704][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.18.15:705][770]LogInit: FAudioDevice initialized.
+[2021.05.14-13.18.15:705][770]LogAudio: Display: Audio Device (ID: 48) registered with world 'OceanStudies'.
+[2021.05.14-13.18.15:716][770]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.18.15:720][770]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.18.15
+[2021.05.14-13.18.15:720][770]LogWorld: Bringing up level for play took: 0.002708
+[2021.05.14-13.18.15:721][770]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2021.05.14-13.18.15:725][770]PIE: Server logged in
+[2021.05.14-13.18.15:727][770]PIE: Play in editor total start time 0.163 seconds.
+[2021.05.14-13.18.18:846][972]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.18.20:735][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.20:735][ 97]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.18.20:736][ 97]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.18.20:736][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.20:760][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.18.20:775][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.20:807][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.20:808][ 97]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.20:809][ 97]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.20:835][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.05.14-13.18.20:951][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2021.05.14-13.18.39:983][185]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.18.39:991][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.18.39:991][185]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:18:39 AM)
+[2021.05.14-13.18.39:992][185]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.18.40:023][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031225s)
+[2021.05.14-13.18.40:025][185]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.18.40:025][185]LogPlayLevel: PIE: World Init took: (0.001982s)
+[2021.05.14-13.18.40:025][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.033472s)
+[2021.05.14-13.18.40:061][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.05.14-13.18.40:067][185]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.18.40:067][185]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.18.40:067][185]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.18.40:067][185]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.18.40:079][185]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.18.40:079][185]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.18.40:123][185]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.18.40:123][185]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.18.40:123][185]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.18.40:123][185]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.18.40:124][185]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.18.40:124][185]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.18.40:124][185]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.18.40:140][185]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.18.40:140][185]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.18.40:140][185]LogInit: FAudioDevice initialized.
+[2021.05.14-13.18.40:140][185]LogAudio: Display: Audio Device (ID: 49) registered with world 'OceanStudies'.
+[2021.05.14-13.18.40:149][185]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.18.40:152][185]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.18.40
+[2021.05.14-13.18.40:153][185]LogWorld: Bringing up level for play took: 0.003090
+[2021.05.14-13.18.40:153][185]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2021.05.14-13.18.40:157][185]PIE: Server logged in
+[2021.05.14-13.18.40:158][185]PIE: Play in editor total start time 0.168 seconds.
+[2021.05.14-13.18.43:329][387]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.18.59:166][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.59:166][454]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.18.59:166][454]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.18.59:167][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.59:192][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.18.59:209][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.18.59:238][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.18.59:239][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.59:240][454]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.18.59:267][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.05.14-13.18.59:379][455]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2021.05.14-13.25.55:441][169]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.25.55:449][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.25.55:449][169]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:25:55 AM)
+[2021.05.14-13.25.55:449][169]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.25.55:473][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023663s)
+[2021.05.14-13.25.55:475][169]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.25.55:475][169]LogPlayLevel: PIE: World Init took: (0.001740s)
+[2021.05.14-13.25.55:475][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.025596s)
+[2021.05.14-13.25.55:512][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.05.14-13.25.55:520][169]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.25.55:520][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.25.55:520][169]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.25.55:520][169]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.25.55:532][169]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.25.55:532][169]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.25.55:576][169]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.25.55:577][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.25.55:577][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.25.55:577][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.25.55:577][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.25.55:577][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.25.55:577][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.25.55:593][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.25.55:593][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.25.55:593][169]LogInit: FAudioDevice initialized.
+[2021.05.14-13.25.55:593][169]LogAudio: Display: Audio Device (ID: 50) registered with world 'OceanStudies'.
+[2021.05.14-13.25.55:605][169]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.25.55:609][169]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.25.55
+[2021.05.14-13.25.55:609][169]LogWorld: Bringing up level for play took: 0.003049
+[2021.05.14-13.25.55:610][169]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.05.14-13.25.55:613][169]PIE: Server logged in
+[2021.05.14-13.25.55:614][169]PIE: Play in editor total start time 0.166 seconds.
+[2021.05.14-13.25.58:067][338]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.28.47:817][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.28.47:817][ 23]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.28.47:817][ 23]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.28.47:817][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.28.47:844][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.28.47:860][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.28.47:890][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.28.47:890][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.28.47:892][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.28.47:917][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.05.14-13.28.48:033][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.05.14-13.32.38:968][352]LogEditorViewport: Clicking on Actor (context menu): WaterBodyLake (WaterBodyLake)
+[2021.05.14-13.32.44:105][578]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.32.44:115][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.32.44:116][578]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:32:44 AM)
+[2021.05.14-13.32.44:116][578]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.32.44:142][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025942s)
+[2021.05.14-13.32.44:145][578]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.32.44:145][578]LogPlayLevel: PIE: World Init took: (0.002996s)
+[2021.05.14-13.32.44:145][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.029168s)
+[2021.05.14-13.32.44:183][578]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.05.14-13.32.44:188][578]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.32.44:188][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.32.44:189][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.32.44:189][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.32.44:189][578]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.32.44:189][578]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.32.44:207][578]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.32.44:207][578]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.32.44:255][578]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.32.44:255][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.32.44:255][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.32.44:255][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.32.44:256][578]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.32.44:256][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.32.44:256][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.32.44:273][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.32.44:273][578]LogInit: FAudioDevice initialized.
+[2021.05.14-13.32.44:273][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.32.44:273][578]LogAudio: Display: Audio Device (ID: 51) registered with world 'OceanStudies'.
+[2021.05.14-13.32.44:285][578]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.32.44:289][578]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.32.44
+[2021.05.14-13.32.44:290][578]LogWorld: Bringing up level for play took: 0.003559
+[2021.05.14-13.32.44:290][578]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2021.05.14-13.32.44:295][578]PIE: Server logged in
+[2021.05.14-13.32.44:296][578]PIE: Play in editor total start time 0.182 seconds.
+[2021.05.14-13.32.52:145][ 42]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.32.53:112][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.32.53:112][ 95]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.32.53:113][ 95]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.32.53:113][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.32.53:139][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.32.53:200][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.32.53:234][ 95]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.32.53:234][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.32.53:236][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.32.53:260][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.32.53:267][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.05.14-13.32.53:420][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2021.05.14-13.32.59:688][539]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.32.59:697][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.32.59:697][539]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:32:59 AM)
+[2021.05.14-13.32.59:731][539]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.32.59:755][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024125s)
+[2021.05.14-13.32.59:756][539]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.32.59:756][539]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2021.05.14-13.32.59:756][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.025929s)
+[2021.05.14-13.32.59:794][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.05.14-13.32.59:798][539]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.32.59:798][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.32.59:798][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.32.59:799][539]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.32.59:799][539]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.32.59:813][539]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.32.59:813][539]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.32.59:860][539]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.32.59:860][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.32.59:860][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.32.59:861][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.32.59:861][539]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.32.59:861][539]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.32.59:861][539]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.32.59:884][539]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.32.59:884][539]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.32.59:884][539]LogInit: FAudioDevice initialized.
+[2021.05.14-13.32.59:884][539]LogAudio: Display: Audio Device (ID: 52) registered with world 'OceanStudies'.
+[2021.05.14-13.32.59:896][539]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.32.59:901][539]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.32.59
+[2021.05.14-13.32.59:902][539]LogWorld: Bringing up level for play took: 0.004808
+[2021.05.14-13.32.59:902][539]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2021.05.14-13.32.59:906][539]PIE: Server logged in
+[2021.05.14-13.32.59:907][539]PIE: Play in editor total start time 0.212 seconds.
+[2021.05.14-13.33.15:806][353]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.33.53:843][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.33.53:843][458]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.33.53:843][458]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.33.53:844][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.33.53:883][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.33.53:953][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.33.53:990][458]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.14-13.33.53:990][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.33.53:992][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.33.54:014][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.33.54:021][458]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.05.14-13.33.54:081][459]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2021.05.14-13.33.54:921][535]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-13.33.54:928][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-13.33.54:929][535]PIE: New page: PIE session: OceanStudies (May 14, 2021, 7:33:54 AM)
+[2021.05.14-13.33.54:929][535]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.33.54:955][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026241s)
+[2021.05.14-13.33.54:956][535]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-13.33.54:956][535]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2021.05.14-13.33.54:956][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.027865s)
+[2021.05.14-13.33.54:992][535]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.05.14-13.33.54:994][535]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-13.33.54:994][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-13.33.54:994][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-13.33.54:995][535]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-13.33.54:995][535]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-13.33.55:009][535]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-13.33.55:009][535]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-13.33.55:056][535]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-13.33.55:057][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-13.33.55:057][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-13.33.55:057][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-13.33.55:057][535]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-13.33.55:058][535]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-13.33.55:058][535]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-13.33.55:076][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-13.33.55:076][535]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-13.33.55:076][535]LogInit: FAudioDevice initialized.
+[2021.05.14-13.33.55:076][535]LogAudio: Display: Audio Device (ID: 53) registered with world 'OceanStudies'.
+[2021.05.14-13.33.55:087][535]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-13.33.55:090][535]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-10.33.55
+[2021.05.14-13.33.55:090][535]LogWorld: Bringing up level for play took: 0.003019
+[2021.05.14-13.33.55:091][535]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2021.05.14-13.33.55:095][535]PIE: Server logged in
+[2021.05.14-13.33.55:096][535]PIE: Play in editor total start time 0.168 seconds.
+[2021.05.14-13.33.58:766][948]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-13.34.11:842][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.34.11:842][422]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-13.34.11:843][422]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-13.34.11:843][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.34.11:858][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-13.34.11:923][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-13.34.11:956][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-13.34.11:957][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.34.11:958][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-13.34.11:985][422]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.14-13.34.12:043][423]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2021.05.14-14.17.05:301][573]LogEditorViewport: Clicking on Actor (context menu): Boat_Vehicle_C (Boat_Vehicle)
+[2021.05.14-14.17.35:220][448]LogRenderer: Reallocating scene render targets to support 1284x684 Format 10 NumSamples 1 (Frame:39917).
+[2021.05.14-14.17.54:250][411]BlueprintLog: New page: Compile Boat_Vehicle
+[2021.05.14-14.17.54:526][411]LogUObjectHash: Compacting FUObjectHashTables data took   8.37ms
+[2021.05.14-14.18.06:564][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.14-14.18.06:604][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2021.05.14-14.18.06:705][ 53]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies458732FA41C45E806D906BBD32A9B9BA.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies.umap'
+[2021.05.14-14.18.06:836][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OceanStudies/OceanStudies_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset" SILENT=true
+[2021.05.14-14.18.06:980][ 53]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/OceanStudies_BuiltData046883364068F9EA4C5BF691DC57F41A.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/OceanStudies/OceanStudies_BuiltData.uasset'
+[2021.05.14-14.18.06:996][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.14-14.18.06:996][ 53]LogContentValidation: Display: Validating World /Game/OceanStudies/OceanStudies.OceanStudies
+[2021.05.14-14.18.06:996][ 53]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/OceanStudies/OceanStudies_BuiltData.OceanStudies_BuiltData
+[2021.05.14-14.18.11:912][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/Boat_Vehicle" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset" SILENT=true
+[2021.05.14-14.18.11:996][317]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_VehicleD211DC4F4D174FF56CF566A86D1460FF.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Boat_Vehicle.uasset'
+[2021.05.14-14.18.12:011][317]AssetCheck: New page: Asset Save: Boat_Vehicle
+[2021.05.14-14.18.12:011][317]LogContentValidation: Display: Validating Blueprint /Game/Boat/Boat_Vehicle.Boat_Vehicle
+[2021.05.14-14.18.14:771][471]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-14.18.14:779][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-14.18.14:779][471]PIE: New page: PIE session: OceanStudies (May 14, 2021, 8:18:14 AM)
+[2021.05.14-14.18.14:779][471]LogPlayLevel: Creating play world package: /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-14.18.14:810][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031303s)
+[2021.05.14-14.18.14:812][471]LogAIModule: Creating AISystem for world OceanStudies
+[2021.05.14-14.18.14:813][471]LogPlayLevel: PIE: World Init took: (0.002918s)
+[2021.05.14-14.18.14:813][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanStudies/OceanStudies.OceanStudies to /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies (0.034460s)
+[2021.05.14-14.18.14:848][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.05.14-14.18.14:853][471]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-14.18.14:853][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-14.18.14:853][471]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-14.18.14:853][471]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-14.18.14:867][471]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-14.18.14:867][471]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-14.18.14:914][471]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.14-14.18.14:915][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-14.18.14:915][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-14.18.14:915][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-14.18.14:916][471]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-14.18.14:916][471]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.14-14.18.14:916][471]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.14-14.18.14:932][471]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.14-14.18.14:932][471]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.14-14.18.14:932][471]LogInit: FAudioDevice initialized.
+[2021.05.14-14.18.14:932][471]LogAudio: Display: Audio Device (ID: 54) registered with world 'OceanStudies'.
+[2021.05.14-14.18.14:949][471]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-14.18.14:952][471]LogWorld: Bringing World /Game/OceanStudies/UEDPIE_0_OceanStudies.OceanStudies up for play (max tick rate 0) at 2021.05.14-11.18.14
+[2021.05.14-14.18.14:953][471]LogWorld: Bringing up level for play took: 0.003098
+[2021.05.14-14.18.14:953][471]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2021.05.14-14.18.14:958][471]PIE: Server logged in
+[2021.05.14-14.18.14:959][471]PIE: Play in editor total start time 0.182 seconds.
+[2021.05.14-14.18.17:291][650]LogBlueprintUserMessages: [Boat_Vehicle_5] Boat Possess
+[2021.05.14-14.18.23:788][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-14.18.23:788][144]LogWorld: BeginTearingDown for /Game/OceanStudies/UEDPIE_0_OceanStudies
+[2021.05.14-14.18.23:788][144]LogWorld: UWorld::CleanupWorld for OceanStudies, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-14.18.23:789][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-14.18.23:801][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-14.18.23:821][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-14.18.23:853][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-14.18.23:854][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-14.18.23:855][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.14-14.18.23:878][144]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.05.14-14.18.23:965][145]LogPlayLevel: Display: Destroying online subsystem :Context_61
