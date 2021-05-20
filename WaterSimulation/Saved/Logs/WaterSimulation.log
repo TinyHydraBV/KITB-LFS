@@ -3195,3 +3195,246 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2021.05.20-14.49.00:665][861]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.20-14.49.00:665][861]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DuckIsland/Duck-Island-3_BuiltData.Duck-Island-3_BuiltData
 [2021.05.20-14.49.00:665][861]LogContentValidation: Display: Validating World /Game/DuckIsland/Duck-Island-3.Duck-Island-3
+[2021.05.20-14.51.12:201][ 72]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.20-14.51.12:206][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.20-14.51.12:206][ 72]PIE: New page: PIE session: Duck-Island-3 (May 20, 2021, 8:51:12 AM)
+[2021.05.20-14.51.12:206][ 72]LogPlayLevel: Creating play world package: /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.51.12:376][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170520s)
+[2021.05.20-14.51.12:378][ 72]LogAIModule: Creating AISystem for world Duck-Island-3
+[2021.05.20-14.51.12:379][ 72]LogPlayLevel: PIE: World Init took: (0.002153s)
+[2021.05.20-14.51.12:379][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DuckIsland/Duck-Island-3.Duck-Island-3 to /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 (0.173040s)
+[2021.05.20-14.51.12:417][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.05.20-14.51.12:426][ 72]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.20-14.51.12:426][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.20-14.51.12:426][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.20-14.51.12:428][ 72]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.20-14.51.12:428][ 72]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.20-14.51.12:442][ 72]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.20-14.51.12:442][ 72]LogAudioMixer: Display: 1: FrontRight
+[2021.05.20-14.51.12:488][ 72]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.20-14.51.12:488][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.20-14.51.12:488][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.20-14.51.12:488][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.20-14.51.12:489][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.20-14.51.12:489][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.20-14.51.12:489][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.20-14.51.12:511][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.20-14.51.12:511][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.20-14.51.12:511][ 72]LogInit: FAudioDevice initialized.
+[2021.05.20-14.51.12:511][ 72]LogAudio: Display: Audio Device (ID: 40) registered with world 'Duck-Island-3'.
+[2021.05.20-14.51.12:522][ 72]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.20-14.51.12:545][ 72]LogWorld: Bringing World /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 up for play (max tick rate 0) at 2021.05.20-11.51.12
+[2021.05.20-14.51.12:546][ 72]LogWorld: Bringing up level for play took: 0.022443
+[2021.05.20-14.51.12:546][ 72]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2021.05.20-14.51.12:550][ 72]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-14.51.12:551][ 72]PIE: Server logged in
+[2021.05.20-14.51.12:552][ 72]PIE: Play in editor total start time 0.348 seconds.
+[2021.05.20-14.51.37:397][756]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-14.51.37:398][756]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Possess
+[2021.05.20-14.52.02:206][452]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-14.52.02:206][452]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Un Possess
+[2021.05.20-14.52.31:660][230]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-14.52.31:660][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.52.31:660][230]LogWorld: BeginTearingDown for /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.52.31:661][230]LogWorld: UWorld::CleanupWorld for Duck-Island-3, bSessionEnded=true, bCleanupResources=true
+[2021.05.20-14.52.31:667][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.52.31:695][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.20-14.52.31:714][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.52.31:753][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.52.31:753][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.52.31:755][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.52.31:789][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.05.20-14.52.31:835][231]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2021.05.20-14.52.33:147][304]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.20-14.52.33:155][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.20-14.52.33:155][304]PIE: New page: PIE session: Duck-Island-3 (May 20, 2021, 8:52:33 AM)
+[2021.05.20-14.52.33:156][304]LogPlayLevel: Creating play world package: /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.52.33:336][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180834s)
+[2021.05.20-14.52.33:338][304]LogAIModule: Creating AISystem for world Duck-Island-3
+[2021.05.20-14.52.33:338][304]LogPlayLevel: PIE: World Init took: (0.002037s)
+[2021.05.20-14.52.33:338][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DuckIsland/Duck-Island-3.Duck-Island-3 to /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 (0.183104s)
+[2021.05.20-14.52.33:370][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.05.20-14.52.33:371][304]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2021.05.20-14.52.33:371][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.20-14.52.33:372][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.20-14.52.33:372][304]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.20-14.52.33:372][304]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.20-14.52.33:385][304]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.20-14.52.33:385][304]LogAudioMixer: Display: 1: FrontRight
+[2021.05.20-14.52.33:431][304]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.20-14.52.33:431][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.20-14.52.33:431][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.20-14.52.33:431][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.20-14.52.33:432][304]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.20-14.52.33:432][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.20-14.52.33:432][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.20-14.52.33:450][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.20-14.52.33:450][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.20-14.52.33:450][304]LogInit: FAudioDevice initialized.
+[2021.05.20-14.52.33:450][304]LogAudio: Display: Audio Device (ID: 41) registered with world 'Duck-Island-3'.
+[2021.05.20-14.52.33:461][304]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.20-14.52.33:483][304]LogWorld: Bringing World /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 up for play (max tick rate 0) at 2021.05.20-11.52.33
+[2021.05.20-14.52.33:484][304]LogWorld: Bringing up level for play took: 0.021410
+[2021.05.20-14.52.33:484][304]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2021.05.20-14.52.33:487][304]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-14.52.33:489][304]PIE: Server logged in
+[2021.05.20-14.52.33:490][304]PIE: Play in editor total start time 0.336 seconds.
+[2021.05.20-14.53.54:956][ 12]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-14.53.54:956][ 12]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Possess
+[2021.05.20-14.54.23:960][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.54.23:960][751]LogWorld: BeginTearingDown for /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.54.23:960][751]LogWorld: UWorld::CleanupWorld for Duck-Island-3, bSessionEnded=true, bCleanupResources=true
+[2021.05.20-14.54.23:966][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.54.23:982][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.20-14.54.24:004][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.54.24:045][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.54.24:045][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.54.24:046][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.54.24:077][751]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.05.20-14.54.24:127][752]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2021.05.20-14.54.25:693][848]LogEditorViewport: Clicking on Actor (context menu): WaterBodyRiver (WaterBodyRiver)
+[2021.05.20-14.54.30:736][227]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.20-14.54.30:743][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.20-14.54.30:744][227]PIE: New page: PIE session: Duck-Island-3 (May 20, 2021, 8:54:30 AM)
+[2021.05.20-14.54.30:744][227]LogPlayLevel: Creating play world package: /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.54.30:932][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187822s)
+[2021.05.20-14.54.30:933][227]LogAIModule: Creating AISystem for world Duck-Island-3
+[2021.05.20-14.54.30:933][227]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2021.05.20-14.54.30:933][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DuckIsland/Duck-Island-3.Duck-Island-3 to /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 (0.189489s)
+[2021.05.20-14.54.30:966][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.05.20-14.54.30:970][227]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.20-14.54.30:970][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.20-14.54.30:970][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.20-14.54.30:971][227]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.20-14.54.30:971][227]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.20-14.54.30:984][227]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.20-14.54.30:984][227]LogAudioMixer: Display: 1: FrontRight
+[2021.05.20-14.54.31:035][227]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.20-14.54.31:035][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.20-14.54.31:035][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.20-14.54.31:035][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.20-14.54.31:035][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.20-14.54.31:036][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.20-14.54.31:036][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.20-14.54.31:054][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.20-14.54.31:054][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.20-14.54.31:054][227]LogInit: FAudioDevice initialized.
+[2021.05.20-14.54.31:055][227]LogAudio: Display: Audio Device (ID: 42) registered with world 'Duck-Island-3'.
+[2021.05.20-14.54.31:069][227]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.20-14.54.31:091][227]LogWorld: Bringing World /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 up for play (max tick rate 0) at 2021.05.20-11.54.31
+[2021.05.20-14.54.31:092][227]LogWorld: Bringing up level for play took: 0.021399
+[2021.05.20-14.54.31:092][227]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2021.05.20-14.54.31:096][227]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-14.54.31:099][227]PIE: Server logged in
+[2021.05.20-14.54.31:100][227]PIE: Play in editor total start time 0.357 seconds.
+[2021.05.20-14.54.41:612][347]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-14.54.41:612][347]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Possess
+[2021.05.20-14.55.14:529][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.55.14:529][565]LogWorld: BeginTearingDown for /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-14.55.14:530][565]LogWorld: UWorld::CleanupWorld for Duck-Island-3, bSessionEnded=true, bCleanupResources=true
+[2021.05.20-14.55.14:537][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.55.14:552][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.20-14.55.14:619][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-14.55.14:653][565]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.20-14.55.14:653][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.55.14:655][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-14.55.14:675][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-14.55.14:686][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.05.20-14.55.14:750][566]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2021.05.20-14.58.32:056][674]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Boat/FbxScene_boat.FbxScene_boat
+[2021.05.20-15.01.22:251][617]BlueprintLog: New page: Compile Boat_Vehicle_Custom
+[2021.05.20-15.01.22:353][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.05.20-15.02.13:056][586]BlueprintLog: New page: Compile Boat_Vehicle_Custom
+[2021.05.20-15.02.13:151][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.05.20-15.02.15:160][675]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Boat_Vehicle_Custom3126175148F87338B5F52D891948DB2E.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/Prototype_Final_Boat/Boat_Vehicle_Custom.uasset'
+[2021.05.20-15.02.15:182][675]AssetCheck: New page: Asset Save: Boat_Vehicle_Custom
+[2021.05.20-15.02.15:182][675]LogContentValidation: Display: Validating Blueprint /Game/Boat/Prototype_Final_Boat/Boat_Vehicle_Custom.Boat_Vehicle_Custom
+[2021.05.20-15.02.19:964][  2]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.20-15.02.19:971][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.20-15.02.19:971][  2]PIE: New page: PIE session: Duck-Island-3 (May 20, 2021, 9:02:19 AM)
+[2021.05.20-15.02.20:009][  2]LogPlayLevel: Creating play world package: /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-15.02.20:190][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181726s)
+[2021.05.20-15.02.20:192][  2]LogAIModule: Creating AISystem for world Duck-Island-3
+[2021.05.20-15.02.20:192][  2]LogPlayLevel: PIE: World Init took: (0.002006s)
+[2021.05.20-15.02.20:192][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DuckIsland/Duck-Island-3.Duck-Island-3 to /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 (0.184061s)
+[2021.05.20-15.02.20:228][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.05.20-15.02.20:230][  2]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2021.05.20-15.02.20:230][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.20-15.02.20:230][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.20-15.02.20:230][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.20-15.02.20:230][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.20-15.02.20:230][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.20-15.02.20:231][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.20-15.02.20:231][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.20-15.02.20:231][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.20-15.02.20:231][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.20-15.02.20:231][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.20-15.02.20:243][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.20-15.02.20:243][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.05.20-15.02.20:287][  2]LogAudioMixer: Display: Using Audio Device Alto-falantes (USB Audio Device)
+[2021.05.20-15.02.20:287][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.20-15.02.20:287][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.20-15.02.20:287][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.20-15.02.20:288][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.20-15.02.20:288][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.20-15.02.20:288][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.20-15.02.20:308][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.20-15.02.20:308][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.20-15.02.20:308][  2]LogInit: FAudioDevice initialized.
+[2021.05.20-15.02.20:308][  2]LogAudio: Display: Audio Device (ID: 43) registered with world 'Duck-Island-3'.
+[2021.05.20-15.02.20:318][  2]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.20-15.02.20:340][  2]LogWorld: Bringing World /Game/DuckIsland/UEDPIE_0_Duck-Island-3.Duck-Island-3 up for play (max tick rate 0) at 2021.05.20-12.02.20
+[2021.05.20-15.02.20:341][  2]LogWorld: Bringing up level for play took: 0.021753
+[2021.05.20-15.02.20:341][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2021.05.20-15.02.20:344][  2]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-15.02.20:345][  2]PIE: Server logged in
+[2021.05.20-15.02.20:346][  2]PIE: Play in editor total start time 0.377 seconds.
+[2021.05.20-15.02.26:739][669]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-15.02.26:740][669]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Possess
+[2021.05.20-15.03.16:549][ 58]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Possessed
+[2021.05.20-15.03.16:549][ 58]LogBlueprintUserMessages: [Boat_Vehicle_Custom_2] Boat Un Possess
+[2021.05.20-15.03.42:179][102]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Player Unpossessed
+[2021.05.20-15.03.42:179][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-15.03.42:180][102]LogWorld: BeginTearingDown for /Game/DuckIsland/UEDPIE_0_Duck-Island-3
+[2021.05.20-15.03.42:180][102]LogWorld: UWorld::CleanupWorld for Duck-Island-3, bSessionEnded=true, bCleanupResources=true
+[2021.05.20-15.03.42:186][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-15.03.42:210][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.20-15.03.42:262][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.20-15.03.42:303][102]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.20-15.03.42:304][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-15.03.42:305][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.20-15.03.42:324][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.20-15.03.42:350][102]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.05.20-15.03.42:405][103]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2021.05.20-15.03.50:692][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DuckIsland/Duck-Island-3" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/DuckIsland/Duck-Island-3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.20-15.03.50:727][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.05.20-15.03.51:758][733]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Duck-Island-311431F4144A688A8C79BB98CAA018B3D.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/DuckIsland/Duck-Island-3.umap'
+[2021.05.20-15.03.51:887][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DuckIsland/Duck-Island-3_BuiltData" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/DuckIsland/Duck-Island-3_BuiltData.uasset" SILENT=true
+[2021.05.20-15.03.51:905][733]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/Duck-Island-3_BuiltData705B103B45B0F0EA03DBF1BBE7CDFCFD.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/DuckIsland/Duck-Island-3_BuiltData.uasset'
+[2021.05.20-15.03.51:930][733]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.20-15.03.51:930][733]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DuckIsland/Duck-Island-3_BuiltData.Duck-Island-3_BuiltData
+[2021.05.20-15.03.51:930][733]LogContentValidation: Display: Validating World /Game/DuckIsland/Duck-Island-3.Duck-Island-3
+[2021.05.20-15.04.21:798][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.05.20-15.04.23:144][269]LogSlate: Window 'Save Content' being destroyed
+[2021.05.20-15.04.23:322][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boat/FbxScene_boat" FILE="../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/FbxScene_boat.uasset" SILENT=true
+[2021.05.20-15.04.23:378][269]LogSavePackage: Moving '../../../../../GitHub/KITB-LFS/WaterSimulation/Saved/FbxScene_boat4F34FC23417778E026168992B22FD369.tmp' to '../../../../../GitHub/KITB-LFS/WaterSimulation/Content/Boat/FbxScene_boat.uasset'
+[2021.05.20-15.04.23:422][269]AssetCheck: New page: Asset Save: FbxScene_boat
+[2021.05.20-15.04.23:422][269]LogContentValidation: Display: Validating Blueprint /Game/Boat/FbxScene_boat.FbxScene_boat
