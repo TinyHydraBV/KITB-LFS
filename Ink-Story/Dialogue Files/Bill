@@ -83,15 +83,18 @@ Bill: So, will you help find me some feathers?
 Bill: Great job! that's more than enough feathers!
 ~ upgrade = true
 ~ feathers = false
+# happy 
 *[Continue]
 Bill: I saw you came by boat, the river on the East side of the island goes straight to Duck Village.
 -
 *[Continue]
-Bill: The only problem is the current super strong.
+Bill: The only problem is the current is super strong.
 -
 *[Continue]
-Bill: Luckily I have this <UPGRADE> which should help you get us the river without any problems. here you go, you can have it!
-
+Bill: Luckily I have this <UPGRADE> which should help you get up the river without any problems. here you go, you can have it!
+-
+*[Continue]
+Player: Let's get this attached to the boat.
 -> bill_end
 
 === bill_end

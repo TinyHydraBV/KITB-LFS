@@ -1,4 +1,4 @@
-// Player character's brother and constant companion
+a// Player character's brother and constant companion
 
 Testing flow -> explore
 ~test_mode = false
@@ -6,6 +6,7 @@ Testing flow -> explore
 
 === talk_brother
 -> brother_end
+
 === brother_barks_water
 Brother: {~Are you sure this is a good idea?|Did we bring any sunscreen?}
 -> brother_end
@@ -15,6 +16,9 @@ Brother: {~Are you sure this is a good idea?|Did we bring any sunscreen?}
 Brother: {~Where are you going?|Come back soon!|Are you just leaving me here?}
 -> brother_end
 
+=== brother_barks_return
+Brother: {~Welcome back!|I was wondering where you were.}
+-> brother_end
 === brother_location
 = safe_buoy
 Brother: Hey, I wonder what's over there?

@@ -1,5 +1,16 @@
 // Leader of the duck village
 
-=== met_norris
+=== talk_norris
+{met_norris == true: -> norris_small_talk|}
 
+-> met_norris
+=== met_norris
+Norris: How did you get into Duck Village?!
+# angry
+-> norris_end
+
+=== norris_small_talk
+
+-> norris_end
+=== norris_end
 {test_mode == true:-> explore|->END}

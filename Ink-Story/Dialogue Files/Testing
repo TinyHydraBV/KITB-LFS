@@ -1,24 +1,41 @@
+
+
+
+
+
 //For testing ink flows and logic
 -> explore
 
 === explore
 ~ test_mode = true
-+[Walk near Bill]
--> near_bill
-+[Talk to Bill]
--> talk_bill
-+[Talk to Peck]
--> talk_peck
-+[Talk to Brother]
--> talk_brother
-+[Disembark Boat]
++{in_boat == true }[Disembark boat]
 You get out of the boat.
 ~ in_boat = false
 -> brother_barks_alone
+
++{in_boat == false }[Get in boat]
+You get into the boat.
+~ in_boat = true
+-> brother_barks_return
+
++[Walk near Bill]
+-> near_bill
+
++[Talk to Bill]
+-> talk_bill
+
++[Talk to Peck]
+-> talk_peck
+
++[Talk to Brother]
+-> talk_brother
+
 +[Sail near river]
 -> brother_location.river
+
 +[Collect feathers]
 You fill a pillowcase full of feathers 
 ~ feathers = true
 -> explore
+
 {test_mode == true:-> explore|->END}

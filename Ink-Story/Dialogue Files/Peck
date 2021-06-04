@@ -2,7 +2,7 @@
 
 === talk_peck
 {met_norris == true: -> peck_allow_entry|}
-
+{met_peck == true: -> peck_small_talk|}
 -> peck_end
 
 === met_peck
@@ -18,7 +18,7 @@ Peck: Can you go back?
 Player: Probably, why?
 *[Continue]
 -
-Bill: Because we don't like short beaks around here. And noone's allowed into Duck Village, Mayor's orders. 
+Bill: Because we don't like short beaks around here. Also, no one's allowed into Duck Village, Mayor's orders. 
 *[Continue]
 -
 Player: Rude1
@@ -27,7 +27,9 @@ Player: Rude1
 Bill: Humph...
 
 -> peck_end
-
+=== peck_small_talk
+Peck: Scram kid! I already said you can't get in!
+-> peck_end
 === peck_allow_entry
 Peck: The Mayor says you're allowed through. What's duck Village coming to?
 -> peck_end
