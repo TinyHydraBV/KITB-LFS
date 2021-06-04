@@ -1,0 +1,5 @@
+// Leader of the duck village
+
+=== met_norris
+
+{test_mode == true:-> explore|->END}

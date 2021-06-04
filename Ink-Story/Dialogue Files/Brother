@@ -1,0 +1,33 @@
+// Player character's brother and constant companion
+
+Testing flow -> explore
+~test_mode = false
+-> talk_brother
+
+=== talk_brother
+-> brother_end
+=== brother_barks_water
+Brother: {~Are you sure this is a good idea?|Did we bring any sunscreen?}
+-> brother_end
+
+=== brother_barks_alone
+# wave
+Brother: {~Where are you going?|Come back soon!|Are you just leaving me here?}
+-> brother_end
+
+=== brother_location
+= safe_buoy
+Brother: Hey, I wonder what's over there?
+-> brother_end
+= danger_buoy
+Brother: I think we should probably stay away from that...
+-> brother_end
+= beach
+Brother: This looks like a nice place to stop!
+-> brother_end
+= river
+Brother: Shame we don't have a paddle...
+-> brother_end
+=== brother_end
+
+{test_mode == true:-> explore|->END}
