@@ -61,13 +61,15 @@ You add a shiny new upgrade to your boat
 
 +[Talk to Mayor]
 -> met_norris
+
 +[Approach cave]
-{tap_off = false: The waterfall is too strong for you to enter the cave behind it.|}
+{tap_on == true: The waterfall is too strong for you to enter the cave behind it.-> explore_lake|}
 Now that the waterfall has been turned off, you can enter the cave.
     ++[Enter cave]
-    -> explore
+    -> explore_cave
     ++[Leave]
     -> explore
+    
 +[Walk up mountain]
 At the top of the mountain, there is a tap which can be turned to shut off the waterfall.
     ++[Turn off tap]
@@ -78,7 +80,15 @@ At the top of the mountain, there is a tap which can be turned to shut off the w
     The tap is on
     ~ tap_on = true
     ->explore_lake
+    
 +[Sail down river]
 You down the river back to the coast.
 -> explore
+
+=== explore_cave
++[Approach monster]
+It's a baby!
++[Leave Cave]
+-> explore_lake
+-
 {test_mode == true:-> explore|->END}

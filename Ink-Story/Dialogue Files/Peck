@@ -3,7 +3,7 @@
 === talk_peck
 {met_norris == true: -> peck_allow_entry|}
 {met_peck == true: -> peck_small_talk|}
--> peck_end
+-> met_peck
 
 === met_peck
 Peck: I've never seen you before, where did you come from?
@@ -21,7 +21,7 @@ Player: Probably, why?
 Bill: Because we don't like short beaks around here. Also, no one's allowed into Duck Village, Mayor's orders. 
 *[Continue]
 -
-Player: Rude1
+Player: Rude
 *[Continue]
 -
 Bill: Humph...
