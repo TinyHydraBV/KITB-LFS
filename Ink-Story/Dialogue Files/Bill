@@ -5,11 +5,11 @@ Bill: Over here!
 -> bill_end
 
 === talk_bill
+{upgrade == true: Bill: Thanks for finding my feathers, I hope you like the new sail! -> bill_end|}
 {not met_bill: -> met_bill|}
 {quest_accepted == false: -> first_quest_repeat|}
-{upgrade == true: Bill: Thanks for finding my feathers, I hope you like the new sail!|}
-Bill:{feathers = true: That's a big bag of feathers you have there, let's take a look!-> first_quest_end| Let me know when you have enough feathers.}
-
+Bill:{feathers == true: That's a big bag of feathers you have there, let's take a look!-> first_quest_end| Let me know when you have enough feathers.}
+-> bill_end
 === met_bill
 Bill: Hey, you {in_boat == true:two }don't look like you're from around here?
 *[Continue]
@@ -25,7 +25,6 @@ Player: {met_peck: I would have but some bird brain called Peck won't let me in!
 Bill: Ah yes, I heard the mayor was tightening security, luckily, I know another way. 
 -> first_quest
 
-
 === explain_village
 *[Continue]
 Bill: Duck Village, it's where all the ducks on Duck Island live!
@@ -34,13 +33,13 @@ Bill: Duck Village, it's where all the ducks on Duck Island live!
 Player: How do I get there?
 -
 *[Continue]
-Bill: Normally you could take the gate at the top of the beach but Duck Norris ordered it shut.
+Bill: Normally you could take the gate at the top of the beach but the Mayor ordered it shut.
 -
 *[Continue]
-Player: Duck Norris?
+Player: The Mayor?
 -
 *[Continue]
-Bill: He's the mayor of duck village. Apparently there's someone very important visiting so he's tightening security. 
+Bill: Amyor Norris, he's in charge of Duck Village. Apparently there's someone very important visiting so he's tightening security. 
 -
 *[Continue]
 Player: So how do I get in?
@@ -60,10 +59,10 @@ Player: Sure, what is it?
 Bill: My wings have lost so many feathers I can't fly anymore! I need you to find me some more. I need at least 20.
 -
 *[Continue]
-Where do I find feathers?
+Player: Where do I find feathers?
 -
 *[Continue]
-Take this and collect them! They're all over the place but you'll find the most around on the east side of the island, near the mouth of the river.
+Bill: Take this and collect them! They're all over the place but you'll find the most on the east side of the island, near the mouth of the river.
     **[I'll do it!]
     ~ quest_accepted = true
     **[Nah, I don't think so.]
@@ -79,11 +78,12 @@ Bill: So, will you help find me some feathers?
 -> bill_end
 
 === first_quest_end
-
+*[Continue]
 Bill: Great job! that's more than enough feathers!
 ~ upgrade = true
 ~ feathers = false
 # happy 
+-
 *[Continue]
 Bill: I saw you came by boat, the river on the East side of the island goes straight to Duck Village.
 -

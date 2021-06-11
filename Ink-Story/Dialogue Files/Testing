@@ -18,6 +18,9 @@ You get into the boat.
 ~ in_boat = true
 -> brother_barks_return
 
++[Talk to Brother]
+-> talk_brother
+
 +[Walk near Bill]
 -> near_bill
 
@@ -27,15 +30,55 @@ You get into the boat.
 +[Talk to Peck]
 -> talk_peck
 
-+[Talk to Brother]
--> talk_brother
-
 +[Sail near river]
--> brother_location.river
-
-+[Collect feathers]
+{upgrade == false: -> brother_location.river |}
+    ++[Sail up river]
+    You use your awesome new upgrade to sail up the river and find yourself on a lake.
+    -> explore_lake
+    ++[Leave]
+    -> explore
+*{quest_accepted == true}[Collect feathers]
 You fill a pillowcase full of feathers 
 ~ feathers = true
 -> explore
 
+*{upgrade == true}[Attach upgrade]
+You add a shiny new upgrade to your boat
+-> explore
+
++[Take shortcut]
+    ++[Skip to lake]
+    ~ quest_accepted = true
+    ~ upgrade = true
+    ~ feathers = true
+    -> explore_lake
+    ++[Do not take shortcut]
+    -> explore
+
+{test_mode == true:-> explore|->END}
+
+=== explore_lake
+
++[Talk to Mayor]
+-> met_norris
++[Approach cave]
+{tap_off = false: The waterfall is too strong for you to enter the cave behind it.|}
+Now that the waterfall has been turned off, you can enter the cave.
+    ++[Enter cave]
+    -> explore
+    ++[Leave]
+    -> explore
++[Walk up mountain]
+At the top of the mountain, there is a tap which can be turned to shut off the waterfall.
+    ++[Turn off tap]
+    The tap is off.
+    ~ tap_on = false
+    ->explore_lake
+    ++[Turn on tap]
+    The tap is on
+    ~ tap_on = true
+    ->explore_lake
++[Sail down river]
+You down the river back to the coast.
+-> explore
 {test_mode == true:-> explore|->END}

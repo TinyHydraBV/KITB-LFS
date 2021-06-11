@@ -1,16 +1,47 @@
 // Leader of the duck village
 
 === talk_norris
-{met_norris == true: -> norris_small_talk|}
+{met_norris == true: -> norris_small_talk|->norris_annoy}
 
 -> met_norris
 === met_norris
 Norris: How did you get into Duck Village?!
 # angry
+*[Continue]
+-
+Player: We sailed our boat up the river...
+*[Continue]
+-
+Mayor: Well, you should sail back down the river again right away! We have a very important guest and we can't have any kids running around messing things up!
+*[Continue]
+-
+Player: What kind of guest?
+*[Continue]
+-
+Mayor: The important kind! Now hurry along...
+*[Continue]
+-> norris_end
+
+=== norris_annoy
+Mayor: Are you still here? what do you want?
+*[Continue]
+-
+Player: I'm looking for my rubber duck, it's yellow and it qucks when you squeeze it!
+*[Continue]
+-
+# shocked
+Mayor: What!? I... um... I don't know what you're talking about....
+*[Continue]
+-
+Player: Ok! I'll go look for it then.
+*[Continue]
+Mayor: Whatever you do, don't go looking in the cave behind the waterfall, there's a dangerous beast in there!!!
+*[Continue]
+-
 -> norris_end
 
 === norris_small_talk
-
+Mayor:{~Remember, don't go near the cave until Mother Duck has calmed the beast!|You'll stay away from that cave if you know what's good for you!|Hmph... Your boat will never make it into the cave while the waterfall flows anyway.}
 -> norris_end
 === norris_end
 {test_mode == true:-> explore|->END}

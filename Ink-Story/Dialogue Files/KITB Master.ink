@@ -11,6 +11,7 @@ VAR in_boat = false
 VAR quest_accepted = false
 VAR upgrade = false
 VAR feathers = false
+VAR tap_on = true
 VAR test_mode = false
 // Global variables go here
 
