@@ -19,6 +19,10 @@
 		{
 			"Name": "WebBrowserWidget",
 			"Enabled": true
+		},
+		{
+			"Name": "BYGRichText",
+			"Enabled": false
 		}
 	]
 }
