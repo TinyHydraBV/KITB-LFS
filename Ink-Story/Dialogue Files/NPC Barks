@@ -1,0 +1,22 @@
+// Random comments and responses from NPC's without story critical info
+
+=== stranger_barks
+{~Do I know you?|What do you want?|What happened to your beak?!}
+-> barks_end
+
+=== friendly_barks
+# happy
+{~Hey there!|Good to see you again!}
+-> barks_end
+
+=== angry_barks
+# angry
+{~Get out of here!|Stay away!|Duck off!}
+-> barks_end
+
+=== conversation_barks
+// Conversations between two NPC's (Not sure how to handle in engine yet).
+-> barks_end
+
+=== barks_end
+{test_mode == true:-> explore|->END}

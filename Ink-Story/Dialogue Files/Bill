@@ -1,0 +1,101 @@
+// First story NPC the players meet and a guide and mentor throughout the rest of the story
+=== near_bill
+# wave
+Bill: Over here!
+-> bill_end
+
+=== talk_bill
+{upgrade == true: Bill: Thanks for finding my feathers, I hope you like the new sail! -> bill_end|}
+{not met_bill: -> met_bill|}
+{quest_accepted == false: -> first_quest_repeat|}
+Bill:{feathers == true: That's a big bag of feathers you have there, let's take a look!-> first_quest_end| Let me know when you have enough feathers.}
+-> bill_end
+=== met_bill
+Bill: Hey, you {in_boat == true:two }don't look like you're from around here?
+*[Continue]
+Player: {in_boat == true:We're not, we |I'm not, I }came to look for my Yellow Rubber Duck. Have you seen it?
+-
+*[Continue]
+Bill: Nope! Have you tried asking around in the village?
+-
+*[Continue]
+Player: {met_peck: I would have but some bird brain called Peck won't let me in! | What village? -> explain_village}
+-
+*[Continue]
+Bill: Ah yes, I heard the mayor was tightening security, luckily, I know another way. 
+-> first_quest
+
+=== explain_village
+*[Continue]
+Bill: Duck Village, it's where all the ducks on Duck Island live!
+-
+*[Continue]
+Player: How do I get there?
+-
+*[Continue]
+Bill: Normally you could take the gate at the top of the beach but the Mayor ordered it shut.
+-
+*[Continue]
+Player: The Mayor?
+-
+*[Continue]
+Bill: Mayor Norris, he's in charge of Duck Village. Apparently there's someone very important visiting so he's tightening security. 
+-
+*[Continue]
+Player: So how do I get in?
+-
+*[Continue]
+Bill: You're in luck! I happen to know another way!
+-
+*[Continue]
+-> first_quest
+
+=== first_quest
+Bill: I'd, be happy to tell you, if would help me out with something?
+*[Continue]
+Player: Sure, what is it?
+-
+*[Continue]
+Bill: My wings have lost so many feathers I can't fly anymore! I need you to find me some more. I need at least 20.
+-
+*[Continue]
+Player: Where do I find feathers?
+-
+*[Continue]
+Bill: Take this and collect them! They're all over the place but you'll find the most on the east side of the island, near the mouth of the river.
+    **[I'll do it!]
+    ~ quest_accepted = true
+    **[Nah, I don't think so.]
+-
+->bill_end
+
+=== first_quest_repeat
+Bill: So, will you help find me some feathers?
+*[All right, I guess...]
+~ quest_accepted = true
+*[Nope, still busy!]
+-
+-> bill_end
+
+=== first_quest_end
+*[Continue]
+Bill: Great job! that's more than enough feathers!
+~ upgrade = true
+~ feathers = false
+# happy 
+-
+*[Continue]
+Bill: I saw you came by boat, the river on the East side of the island goes straight to Duck Village.
+-
+*[Continue]
+Bill: The only problem is the current is super strong.
+-
+*[Continue]
+Bill: Luckily I have this <UPGRADE> which should help you get up the river without any problems. here you go, you can have it!
+-
+*[Continue]
+Player: Let's get this attached to the boat.
+-> bill_end
+
+=== bill_end
+{test_mode == true:-> explore|->END}

@@ -1,0 +1,58 @@
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Intermediate\Build\Win64\UE4Editor\Development\InkEditor\Definitions.InkEditor.h
+C:/Users/Emmanuel/src/KITB-LFS/WaterSimulation/Plugins/UnrealInk/Source/InkEditor/Private/InkEditor.cpp
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\InkEditor\Public\InkEditor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\AssetTools\Public\AssetToolsModule.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\AssetTools\Public\IAssetTools.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\AssetTools\Public\AssetTypeCategories.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\AssetTools\Public\IAssetTypeActions.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer/Merge/Public/Merge.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailManager.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailRenderer.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailRenderer.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailManager.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\MessageLog\Public\MessageLogModule.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\MessageLog\Public\MessageLogInitializationOptions.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\InkEditor\Private\StoryAssetFactory.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\EditorReimportHandler.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Developer\AssetTools\Public\AssetTypeActions_Base.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Toolkits/AssetEditorManager.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Public\Toolkits/SimpleAssetEditor.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\Ink\Public\StoryAsset.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\Ink\Public\Ink.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Intermediate\Build\Win64\UE4Editor\Inc\Ink\StoryAsset.generated.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Intermediate\Build\Win64\UE4Editor\Inc\InkEditor\StoryAssetFactory.generated.h
+C:/Users/Emmanuel/src/KITB-LFS/WaterSimulation/Plugins/UnrealInk/Source/InkEditor/Private/StoryAssetFactory.cpp
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\Ink\Public\InkCompiler.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Source\Ink\Private\MonoBaseClass.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/jit/jit.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/appdomain.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/utils/mono-publib.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/object.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/class.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/metadata.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/blob.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/row-indexes.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/image.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/utils/mono-error.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/loader.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\ThirdParty\Mono\include\mono/metadata/reflection.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Intermediate\Build\Win64\UE4Editor\Inc\Ink\MonoBaseClass.generated.h
+C:\Users\Emmanuel\src\KITB-LFS\WaterSimulation\Plugins\UnrealInk\Intermediate\Build\Win64\UE4Editor\Inc\Ink\InkCompiler.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FeedbackContext.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/SlowTaskStack.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/TokenizedMessage.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\EditorFramework/AssetImportData.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetImportData.generated.h

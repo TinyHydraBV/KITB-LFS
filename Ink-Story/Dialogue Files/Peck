@@ -1,0 +1,39 @@
+// Guard at the first gate
+
+=== talk_peck
+{met_norris == true: -> peck_allow_entry|}
+{met_peck == true: -> peck_small_talk|}
+-> met_peck
+
+=== met_peck
+Peck: I've never seen you before, where did you come from?
+*[Continue]
+-
+Player: From way over that way, by boat!
+*[Continue]
+-
+Peck: Can you go back?
+*[Continue]
+-
+Player: Probably, why?
+*[Continue]
+-
+Bill: Because we don't like short beaks around here. Also, no one's allowed into Duck Village, Mayor's orders. 
+*[Continue]
+-
+Player: Rude
+*[Continue]
+-
+Bill: Humph...
+
+-> peck_end
+=== peck_small_talk
+Peck: Scram kid! I already said you can't get in!
+-> peck_end
+=== peck_allow_entry
+Peck: The Mayor says you're allowed through. What's duck Village coming to?
+-> peck_end
+
+=== peck_end
+
+{test_mode == true:-> explore|->END}
