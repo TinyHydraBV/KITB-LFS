@@ -1,0 +1,13 @@
+// Baby noises?
+
+=== near_baby
+Brother: That dosen't look so scary...
+-> baby_end
+
+=== met_baby
+Mayor: Wait!!! Leave that baby alone!
+-> baby_end
+
+=== baby_end
+
+{test_mode == true:-> explore|->END}

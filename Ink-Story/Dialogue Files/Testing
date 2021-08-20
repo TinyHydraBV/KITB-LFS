@@ -1,0 +1,94 @@
+
+
+
+
+
+//For testing ink flows and logic
+-> explore
+
+=== explore
+~ test_mode = true
++{in_boat == true }[Disembark boat]
+You get out of the boat.
+~ in_boat = false
+-> brother_barks_alone
+
++{in_boat == false }[Get in boat]
+You get into the boat.
+~ in_boat = true
+-> brother_barks_return
+
++[Talk to Brother]
+-> talk_brother
+
++[Walk near Bill]
+-> near_bill
+
++[Talk to Bill]
+-> talk_bill
+
++[Talk to Peck]
+-> talk_peck
+
++[Sail near river]
+{upgrade == false: -> brother_location.river |}
+    ++[Sail up river]
+    You use your awesome new upgrade to sail up the river and find yourself on a lake.
+    -> explore_lake
+    ++[Leave]
+    -> explore
+*{quest_accepted == true}[Collect feathers]
+You fill a pillowcase full of feathers 
+~ feathers = true
+-> explore
+
+*{upgrade == true}[Attach upgrade]
+You add a shiny new upgrade to your boat
+-> explore
+
++[Take shortcut]
+    ++[Skip to lake]
+    ~ quest_accepted = true
+    ~ upgrade = true
+    ~ feathers = true
+    -> explore_lake
+    ++[Do not take shortcut]
+    -> explore
+
+{test_mode == true:-> explore|->END}
+
+=== explore_lake
+
++[Talk to Mayor]
+-> met_norris
+
++[Approach cave]
+{tap_on == true: The waterfall is too strong for you to enter the cave behind it.-> explore_lake|}
+Now that the waterfall has been turned off, you can enter the cave.
+    ++[Enter cave]
+    -> explore_cave
+    ++[Leave]
+    -> explore
+    
++[Walk up mountain]
+At the top of the mountain, there is a tap which can be turned to shut off the waterfall.
+    ++[Turn off tap]
+    The tap is off.
+    ~ tap_on = false
+    ->explore_lake
+    ++[Turn on tap]
+    The tap is on
+    ~ tap_on = true
+    ->explore_lake
+    
++[Sail down river]
+You down the river back to the coast.
+-> explore
+
+=== explore_cave
++[Approach monster]
+It's a baby!
++[Leave Cave]
+-> explore_lake
+-
+{test_mode == true:-> explore|->END}
