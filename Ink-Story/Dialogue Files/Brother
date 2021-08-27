@@ -34,4 +34,4 @@ Brother: Shame we don't have a paddle...
 -> brother_end
 === brother_end
 
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|-> stop_talking}

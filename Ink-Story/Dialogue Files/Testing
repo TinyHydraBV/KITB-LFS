@@ -91,4 +91,4 @@ It's a baby!
 +[Leave Cave]
 -> explore_lake
 -
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|->stop_talking}
