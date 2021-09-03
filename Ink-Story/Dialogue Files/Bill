@@ -98,4 +98,4 @@ Player: Let's get this attached to the boat.
 -> bill_end
 
 === bill_end
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|-> stop_talking}

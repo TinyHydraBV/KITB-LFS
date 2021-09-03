@@ -10,4 +10,4 @@ Mayor: Wait!!! Leave that baby alone!
 
 === baby_end
 
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|-> stop_talking}

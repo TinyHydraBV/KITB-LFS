@@ -19,4 +19,4 @@
 -> barks_end
 
 === barks_end
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|->stop_talking}

@@ -36,4 +36,4 @@ Peck: The Mayor says you're allowed through. What's duck Village coming to?
 
 === peck_end
 
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|-> stop_talking}

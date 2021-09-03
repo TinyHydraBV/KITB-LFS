@@ -44,4 +44,4 @@ Mayor: Whatever you do, don't go looking in the cave behind the waterfall, there
 Mayor:{~Remember, don't go near the cave until Mother Duck has calmed the beast!|You'll stay away from that cave if you know what's good for you!|Hmph... Your boat will never make it into the cave while the waterfall flows anyway.}
 -> norris_end
 === norris_end
-{test_mode == true:-> explore|->END}
+{test_mode == true:-> explore|-> stop_talking}
